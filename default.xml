@@ -463,7 +463,7 @@
   <project name="F-AOSP/manifest" path="manifest" remote="github" revision="aosp-5.0" />
 
   <!-- Device Specific -->
-  <project name="Alberto97/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-12.0" />
+  <project name="Alberto97/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="aosp-5.0" />
   <project name="Alberto97/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="aosp-5.0" />
   <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
