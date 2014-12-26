@@ -235,7 +235,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project name="CyanogenMod/android_external_sepolicy" path="external/sepolicy" groups="pdk" remote="github" revision="cm-12.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project name="F-AOSP/platform_external_skia" path="external/skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-5.0" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
