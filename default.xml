@@ -188,6 +188,7 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project name="CyanogenMod/android_external_libvterm" path="external/libvterm" remote="github" revision="cm-12.0" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
@@ -373,6 +374,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project name="F-AOSP/platform_packages_apps_Stk" path="packages/apps/Stk" remote="github" revision="aosp-5.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project name="CyanogenMod/android_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" revision="cm-12.0" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
