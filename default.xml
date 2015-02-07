@@ -441,7 +441,7 @@
   <project name="F-AOSP/platform_system_core" groups="pdk" path="system/core" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_system_extras" groups="pdk" path="system/extras" remote="github" revision="aosp-5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project name="CyanogenMod/android_system_media" path="system/media" groups="pdk" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-12.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
