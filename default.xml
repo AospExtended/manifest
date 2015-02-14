@@ -392,7 +392,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project name="CyanogenMod/android_packages_services_Mms" path="packages/services/Mms" remote="github" revision="cm-12.0" />
+  <project name="F-AOSP/platform_packages_services_Mms" path="packages/services/Mms" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="aosp-5.0" />
   <project name="F-AOSP/platform_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="aosp-5.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
