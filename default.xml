@@ -249,7 +249,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
   <project name="F-AOSP/platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="aosp-5.1" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
@@ -380,7 +379,6 @@
   <project name="F-AOSP/platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" revision="aosp-5.1" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project name="F-AOSP/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="aosp-5.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
