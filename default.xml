@@ -467,7 +467,6 @@
   <project name="F-AOSP/manifest" path="manifest" remote="github" revision="aosp-5.1" />
 
   <!-- Device Specific -->
-  <project name="titan-aosp/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="android-5.1.0_r1" />
   <project name="Alberto97/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="aosp-5.1" />
   <project name="Alberto97/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="aosp-5.1" />
   <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lollipop" />
