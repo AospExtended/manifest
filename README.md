@@ -15,9 +15,9 @@ repo sync
 ```
 Finally to build:
 ````bash
-. build/build.sh device_codename
+./build.sh device_codename
 ```
 Example:
 ````bash
-. build/build.sh falcon
+./build.sh falcon
 ```

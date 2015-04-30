@@ -13,6 +13,7 @@
 
   <project name="F-AOSP/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="aosp-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
