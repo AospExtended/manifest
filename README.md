@@ -2,22 +2,20 @@ The Android Open Source Project Lollipop 5.1
 ===========
 
 To initialize your local repository using the AOSP trees, use a command like this:
-
-    repo init -u git://github.com/F-AOSP/manifest.git -b aosp-5.1
-
+````bash
+repo init -u git://github.com/F-AOSP/manifest.git -b aosp-5.1
+```
 Add Moto G resources by typing this:
-
-    curl https://raw.githubusercontent.com/F-AOSP/manifest/aosp-5.1/moto-msm8226.xml > .repo/local_manifests/moto-msm8226.xml
-
+````bash
+curl --create-dirs -L -o .repo/local_manifests/moto-msm8226.xml -O -L https://raw.githubusercontent.com/F-AOSP/manifest/aosp-5.1/moto-msm8226.xml
+```
 Then to sync up:
-
-    repo sync
-
+````bash
+repo sync
+```
 Finally to build:
-
-    . build/envsetup.sh
-    lunch aosp_falcon-userdebug
-    make bacon -j#
-
- #=PC core number+thread number
-
+````bash
+. build/envsetup.sh
+lunch aosp_falcon-userdebug
+make bacon -j$(grep -c ^processor /proc/cpuinfo)
+```
