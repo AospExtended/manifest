@@ -15,7 +15,9 @@ repo sync
 ```
 Finally to build:
 ````bash
-. build/envsetup.sh
-lunch aosp_falcon-userdebug
-make bacon -j$(grep -c ^processor /proc/cpuinfo)
+. build/build.sh device_codename
+```
+Example:
+````bash
+. build/build.sh falcon
 ```
