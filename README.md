@@ -5,6 +5,10 @@ To initialize your local repository using the AOSP trees, use a command like thi
 
     repo init -u git://github.com/F-AOSP/manifest.git -b aosp-5.1
 
+Add Moto G resources by typing this:
+
+    curl https://raw.githubusercontent.com/F-AOSP/manifest/aosp-5.1/moto-msm8226.xml > .repo/local_manifests/moto-msm8226.xml
+
 Then to sync up:
 
     repo sync
