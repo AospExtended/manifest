@@ -449,7 +449,7 @@
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-12.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project name="CyanogenMod/android_system_vold" groups="pdk" path="system/vold" remote="github" revision="cm-12.1" />
+  <project name="F-AOSP/platform_system_vold" groups="pdk" path="system/vold" remote="github" revision="aosp-5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
