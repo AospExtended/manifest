@@ -276,7 +276,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project name="CyanogenMod/android_frameworks_av" path="frameworks/av" groups="pdk" remote="github" revision="cm-12.1" />
-  <project name="F-AOSP/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" revision="lollipop-5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -296,13 +296,13 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project name="F-AOSP/platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="lollipop-5.1" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <project name="CyanogenMod/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project name="F-AOSP/platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" revision="lollipop-5.1" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -337,12 +337,13 @@
   <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-12.1" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
   <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-12.1" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" groups="pdk" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="github" revision="cm-12.1-caf" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project name="F-AOSP/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="github" revision="lollipop-5.1" />
   <project name="F-AOSP/platform_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" groups="pdk-cw-fs" remote="github" revision="aosp-5.1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -350,32 +351,32 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project name="F-AOSP/platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="lollipop-5.1" />
+  <project name="F-AOSP/platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project name="F-AOSP/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project name="F-AOSP/platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project name="F-AOSP/platform_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project name="F-AOSP/platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project name="F-AOSP/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project name="F-AOSP/platform_packages_apps_Stk" path="packages/apps/Stk" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project name="F-AOSP/platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" revision="aosp-5.1" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
@@ -385,19 +386,19 @@
   <project name="F-AOSP/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="aosp-5.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
+  <project name="F-AOSP/platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="github" revision="lollipop-5.1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project name="F-AOSP/platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="lollipop-5.1" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project name="F-AOSP/platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="aosp-5.1" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
+  <project name="F-AOSP/platform_packages_services_Mms" path="packages/services/Mms" remote="github" revision="lollipop-5.1" />
+  <project name="F-AOSP/platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="lollipop-5.1" />
+  <project name="F-AOSP/platform_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="lollipop-5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
