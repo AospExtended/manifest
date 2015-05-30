@@ -3,6 +3,7 @@
   <!-- Device Trees -->
   <project name="Alberto97/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="aosp-5.1" />
   <project name="titan-aosp/android_device_motorola_thea" path="device/motorola/thea" remote="github" revision="android-5.1.1_r1" />
+  <project name="titan-aosp/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="cm-12.1" />
 
   <!-- Motorola MSM8226 -->
   <project name="Alberto97/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="aosp-5.1" />
