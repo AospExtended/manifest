@@ -3,7 +3,7 @@ The Android Open Source Project Lollipop 5.1
 
 To initialize your local repository using the AOSP trees, use a command like this:
 ````bash
-repo init -u git://github.com/F-AOSP/manifest.git -b aosp-5.1
+repo init -u git://github.com/F-AOSP/manifest.git -b lollipop-5.1
 ```
 Add Moto G resources by typing this:
 ````bash
