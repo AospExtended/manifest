@@ -247,7 +247,7 @@
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project name="F-AOSP/platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="aosp-5.1" />
+  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-12.1" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
