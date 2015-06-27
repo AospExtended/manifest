@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project name="F-AOSP/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="aosp-5.1" >
+  <project name="F-AOSP/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
@@ -281,7 +281,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project name="F-AOSP/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="lollipop-5.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project name="CyanogenMod/android_frameworks_opt_bluetooth" path="frameworks/opt/bluetooth" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -294,7 +294,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project name="F-AOSP/platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="lollipop-5.1" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project name="F-AOSP/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="aosp-5.1" groups="pdk" />
+  <project name="F-AOSP/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="lollipop-5.1" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
@@ -377,7 +377,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project name="F-AOSP/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="aosp-5.1" />
+  <project name="F-AOSP/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lollipop-5.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project name="F-AOSP/platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="github" revision="lollipop-5.1" />
