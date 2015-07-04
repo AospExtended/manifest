@@ -461,7 +461,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="aosp-5.1" />
+  <project name="AOSP-RRO/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="aosp-5.1" />
 
   <project name="AOSP-RRO/manifest" path="manifest" remote="github" revision="lollipop-5.1" />
   
