@@ -8,7 +8,7 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/android-5.1.1_r6"
+  <default revision="refs/tags/android-5.1.1_r7"
            remote="aosp"
            sync-j="4" />
 
