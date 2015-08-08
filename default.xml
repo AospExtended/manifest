@@ -350,8 +350,8 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project name="AOSP-RRO/platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="lollipop-5.1" />
-  <project name="AOSP-RRO/platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="lollipop-5.1" />
+  <project name="AOSP-RRO/platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="aosp-5.1" />
+  <project name="AOSP-RRO/platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="aosp-5.1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project name="AOSP-RRO/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="lollipop-5.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
