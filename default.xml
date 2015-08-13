@@ -470,21 +470,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project name="AOSP-RRO/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="aosp-5.1" />
 
-  <project name="AOSP-RRO/manifest" path="manifest" remote="github" revision="lollipop-5.1" />
-  
-  <!-- Generic MSM8226 -->
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
-  
-  <!-- Generic MSM8610 -->
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8610" remote="github" revision="cm-12.1-caf-8610" />
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8610" remote="github" revision="cm-12.1-caf-8610" />
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8610" remote="github" revision="cm-12.1-caf-8610" />
 
-  <!-- Generic MSM8916-->
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="cm-12.1-caf-8916" />
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github" revision="cm-12.1-caf-8916" />
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="cm-12.1-caf-8916" />
+  <project name="AOSP-RRO/manifest" path="manifest" remote="github" revision="lollipop-5.1" />
+ 
 
 </manifest>

@@ -10,4 +10,9 @@
   <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lollipop" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
 
+  <!-- Generic MSM8226 -->
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+
 </manifest>
