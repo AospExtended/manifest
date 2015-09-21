@@ -244,7 +244,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project name="F-AOSP/platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="github" revision="aosp-5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project name="F-AOSP/platform_external_skia" path="external/skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-5.1" />
+  <project name="CyanogenMod/android_external_skia" path="external/skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="cm-12.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
