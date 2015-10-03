@@ -117,6 +117,7 @@
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
@@ -126,6 +127,7 @@
   <project path="external/fio" name="platform/external/fio" />
   <project name="F-AOSP/platform_external_flac" path="external/flac" groups="pdk" remote="github" revision="aosp-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>  
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
