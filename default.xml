@@ -350,7 +350,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project name="AOSP-RRO/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
-  <project name="AOSP-RRO/platform_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="marshmallow" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
