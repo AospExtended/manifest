@@ -265,7 +265,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project name="AOSP-RRO/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" />
+  <project name="AOSP-RRO/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
   <project name="CyanogenMod/android_frameworks_av" path="frameworks/av" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
