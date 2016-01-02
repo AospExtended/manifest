@@ -21,6 +21,7 @@
   <project name="AOSP-RRO/platform_art" path="art" groups="pdk" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="github" revision="marshmallow" />
   <project path="external/ant-wireless/antradio-library" name="AOSP-RRO/android_external_ant-wireless_antradio-library" revision="marshmallow" />
+   <project path="external/ant-wireless/ant_native" name="AOSP-RRO/android_external_ant-wireless_ant_native" revision="marshmallow" />
   <project name="AOSP-RRO/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="marshmallow" />
@@ -61,7 +62,6 @@
   <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-13.0" />
   <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-13.0" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-13.0" />
