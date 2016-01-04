@@ -24,7 +24,7 @@
   <!-- AOSP-RRO -->
   <project name="AOSP-RRO/platform_art" path="art" groups="pdk" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/ant-wireless/antradio-library" name="AOSP-RRO/android_external_ant-wireless_antradio-library" revision="marshmallow" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
   <project name="AOSP-RRO/platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="marshmallow" />
