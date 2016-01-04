@@ -8,6 +8,10 @@
   <remote  name="github"
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
+
+  <remote  name="aospb"
+           fetch="https://github.com/AOSPB"
+           revision="mm6.0" />
   
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org" />
   <default remote="caf" revision="LA.HB.1.1.1_rb4.7" />
