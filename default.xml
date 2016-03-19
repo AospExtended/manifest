@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="aospb" >
+  <project name="AOSP-RRO/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -41,7 +41,8 @@
   <project name="AOSP-RRO/platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="github" revision="marshmallow" />
-  <project name="AOSP-RRO/platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="marshmallow" >
+  <project name="AOSP-RRO/platform_packages_providers_TelephonyProvider" 
+path="packages/providers/TelephonyProvider" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_services_Mms" path="packages/services/Mms" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="marshmallow" />
@@ -320,7 +321,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="aospb" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -398,7 +398,6 @@
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
