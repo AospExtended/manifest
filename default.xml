@@ -11,7 +11,7 @@
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
 
-  <default revision="refs/tags/android-6.0.1_r17"
+  <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-j="32"
            sync-c="true"
