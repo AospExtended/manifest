@@ -20,6 +20,7 @@
 
   <project name="AOSP-RRO/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
 
 <!-- AOSP-RRO -->
