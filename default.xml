@@ -22,45 +22,45 @@
            sync-f="true"
            sync-q="true" />
 
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="github" remote="rro" >
+  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
 
 <!-- AOSP-RRO -->
-  <project name="platform_art" path="art" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="github" remote="rro" />
-  <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="github" remote="rro" />
-  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" remote="rro" groups="pdk" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Browser" path="packages/apps/Browser" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" remote="rro" />
-  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" remote="rro" />
-  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="github" remote="rro" />
-  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="github" remote="rro" />
-  <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" remote="rro" />
-  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" remote="rro" />
-  <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="github" remote="rro" />
-  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" remote="rro" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" remote="rro" />
-  <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="github" remote="rro" />
-  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" remote="rro" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="github" remote="rro" />
-  <project name="platform_system_core" groups="pdk" path="system/core" remote="github" remote="rro" />
-  <project name="platform_system_extras" groups="pdk" path="system/extras" remote="github" remote="rro" />
-  <project name="platform_system_vold" groups="pdk" path="system/vold" remote="github" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="github" remote="rro" />
-  <project name="manifest" path="manifest" remote="github" remote="rro" />
+  <project name="platform_art" path="art" groups="pdk" remote="rro" />
+  <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
+  <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="rro" />
+  <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
+  <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="rro" />
+  <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="rro" groups="pdk" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
+  <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
+  <project name="platform_packages_apps_Browser" path="packages/apps/Browser" remote="rro" />
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
+  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
+  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
+  <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
+  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="rro" />
+  <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
+  <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="rro" />
+  <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="rro" />
+  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="rro" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="rro" />
+  <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="rro" />
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="rro" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="rro" />
+  <project name="platform_system_core" groups="pdk" path="system/core" remote="rro" />
+  <project name="platform_system_extras" groups="pdk" path="system/extras" remote="rro" />
+  <project name="platform_system_vold" groups="pdk" path="system/vold" remote="rro" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
+  <project name="manifest" path="manifest" remote="rro" />
 
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
