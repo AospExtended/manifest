@@ -521,7 +521,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="prebuilt" name="prebuilt" remote="aospb" />
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="aospb" />
   <!-- qrngd -->
