@@ -40,8 +40,8 @@
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" />
-  <project path="hardware/broadcom/libbt" name="paltform_hardware_broadcom_libbt" remote="rro" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform_papackages_apps_BasicSmsReceiver" remote="rro" />
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="rro" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform_packages_apps_BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
   <project name="platform_packages_apps_Browser" path="packages/apps/Browser" remote="rro" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="rro" />
