@@ -67,6 +67,7 @@
   <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="rro" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="rro" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="rro" />
+  <project path="system/bt" name="platform_system_bt" remote="rro" />
   <project name="platform_system_core" groups="pdk" path="system/core" remote="rro" />
   <project name="platform_system_extras" groups="pdk" path="system/extras" remote="rro" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="rro" />
@@ -509,7 +510,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="android_system_bt" remote="slim" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
