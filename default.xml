@@ -43,7 +43,6 @@
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="rro" />
   <project path="packages/apps/BasicSmsReceiver" name="platform_packages_apps_BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
-  <project name="platform_packages_apps_Browser" path="packages/apps/Browser" remote="rro" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="rro" />
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
@@ -124,6 +123,7 @@
   <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8916" />
