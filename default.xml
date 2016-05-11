@@ -15,7 +15,7 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="marshmallow" />
 
-  <default revision="refs/tags/android-6.0.1_r24"
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="8"
            sync-c="true"
