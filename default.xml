@@ -22,16 +22,17 @@
            sync-f="true"
            sync-q="true" />
 
+ 
+<!-- AOSP-RRO -->
+
+  <project name="platform_art" path="art" groups="pdk" remote="rro" />
   <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
-
-<!-- AOSP-RRO -->
-  <project name="platform_art" path="art" groups="pdk" remote="rro" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="rro" />
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
-  <project path="external/dhcpcd" name="platform_external_dhcpcd" remote="rro" />
+  <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
   <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="rro" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
   <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="rro" />
@@ -40,39 +41,40 @@
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="rro" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="rro" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="rro" />
-  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="rro" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform_packages_apps_BasicSmsReceiver" remote="rro" />
+  <project name="platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rro" />
+  <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
+  <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="rro" />
+  <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
-  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="rro" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="rro" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="rro" />
+  <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />
+  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
+  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="rro" />
+  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="rro" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
-  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" remote="rro" />
+  <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rro" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="rro" />
   <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="rro" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="rro" />
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="rro" />
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="rro" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="rro" />
   <project name="platform_packages_services_Mms" path="packages/services/Mms" remote="rro" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="rro" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="rro" />
-  <project path="system/bt" name="platform_system_bt" remote="rro" />
-  <project name="platform_system_core" groups="pdk" path="system/core" remote="rro" />
-  <project name="platform_system_extras" groups="pdk" path="system/extras" remote="rro" />
-  <project path="system/keymaster" name="platform_system_keymaster" remote="rro" />
-  <project path="system/security" name="platform_system_security" remote="rro" />
-  <project name="platform_system_vold" groups="pdk" path="system/vold" remote="rro" />
+  <project name="platform_system_bt" path="system/bt" remote="rro" />
+  <project name="platform_system_core" path="system/core" groups="pdk" remote="rro" />
+  <project name="platform_system_extras" path="system/extras"  groups="pdk" remote="rro" />
+  <project name="platform_system_keymaster" path="system/keymaster" remote="rro" />
+  <project name="platform_system_security" path="system/security" remote="rro" />
+  <project name="platform_system_vold" path="system/vold" groups="pdk" remote="rro" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
   <project name="manifest" path="manifest" remote="rro" />
   
@@ -116,7 +118,6 @@
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="rro" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
