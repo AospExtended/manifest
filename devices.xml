@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Placeholder for now -->
+<project name="AOSP-RRO/platform_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github" revision="marshmallow" />
+<project name="AOSP-RRO/platform_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="marshmallow" />
+<project name="AOSP-RRO/platform_vendor_samsung" path="vendor/samsung" remote="github" revision="marshmallow" />
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+<project name="aosp-rro/platform_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="marshmallow" />
 </manifest>
