@@ -48,6 +48,7 @@
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
   <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="rro" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="rro" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="rro" />
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
@@ -115,6 +116,7 @@
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="rro" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
@@ -398,7 +400,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -437,7 +438,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
