@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://github.com/AOSP-RRO/manifest -->
+<manifest>
+
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="hardware_qcom_fm" />
+
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="vendor/qcom/opensource/fm" groups="qcom" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="vendor/qcom/opensource/location" remote="github" revision="cm-13.0" />
+
+  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="cm-13.0" />
+
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
+
+  <project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="aosp-6.0" />
+  <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="cm-13.0" />
+  <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" clone-depth="1" revision="cm-13.0" />
+
+</manifest>
