@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/toybox" />
+
+  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
+  <project name="STRYDER-007/aosp_device_sony_taoshan" path="device/sony/taoshan" remote="github" revision="mm-6.0" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_sony_msm8930" path="kernel/sony/msm8930" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+</manifest>
