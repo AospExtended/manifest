@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sony Xperia Z Manifest -->
+<manifest>
+  <remove-project name="platform/external/toybox" />
+
+  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="github" revision="cm-13.0" />
+  <project name="STRYDER-007/aosp_device_sony_yuga" path="device/sony/yuga" remote="github" revision="mm-6.0" />
+  <project name="STRYDER-007/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="github" revision="mm-6.0" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+</manifest>

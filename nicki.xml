@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sony Xperia M Manifest -->
+<manifest>
+  <remove-project name="platform/external/toybox" />
+
+  <project name="CyanogenMod/android_external_toybox" path="external/toybox" groups="pdk" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_sony_msm8x27" path="kernel/sony/msm8x27" remote="github" revision="cm-13.0" />
+  <project name="STRYDER-007/aosp_device_sony_nicki" path="device/sony/nicki" remote="github" revision="mm-6.0" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
+</manifest>
