@@ -534,5 +534,7 @@
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="slim" />
   <!-- qrngd -->
   <project path="external/qrngd" name="android_external_qrngd" remote="slim" />
+  <!-- masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
 </manifest>
