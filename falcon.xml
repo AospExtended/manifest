@@ -2,6 +2,6 @@
 <manifest>
  <project name="platform_device_motorola_falcon" path="device/motorola/falcon" remote="rro" />
  <project name="platform_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="rro" />
- <project name="akhilnarang/ThugLife_falcon" path="kernel/motorola/msm8226" remote="github" revision="master" />
+ <project name="Cyanogenmod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0" />
  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 </manifest>
