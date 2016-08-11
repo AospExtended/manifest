@@ -58,7 +58,7 @@
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
-  <project name="ishubhamsingh/platform_packages_apps_Settings" path="packages/apps/Settings" emote="github" revision="marshmallow" />
+  <project name="ishubhamsingh/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="marshmallow" />
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
