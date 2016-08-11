@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-13.0" />
+<project name="ishubhamsingh/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="aosp" />
+<project path="device/motorola/osprey" name="ishubhamsingh/device_motorola_osprey" remote="github" revision="aosp" />
+<project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-13.0" />
+</manifest>
