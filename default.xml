@@ -30,7 +30,7 @@
 <!-- AOSP-RRO -->
 
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
+  <project name="platform_build" path="build" groups="pdk,tradefed" remote="local" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
@@ -81,7 +81,7 @@
   <project name="platform_system_keymaster" path="system/keymaster" remote="rro" />
   <project name="platform_system_security" path="system/security" remote="rro" />
   <project name="platform_system_vold" path="system/vold" groups="pdk" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="local" />
   <project name="manifest" path="manifest" remote="rro" />
   
 <!-- CyanogenMod -->
