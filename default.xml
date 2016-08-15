@@ -62,7 +62,7 @@
   <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
+  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />
