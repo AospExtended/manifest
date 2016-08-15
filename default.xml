@@ -15,8 +15,8 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="marshmallow" />
 	   
-  <remote name="local"
-           fetch="https://github.com/ishubhamsingh"
+  <remote name="ex"
+           fetch="https://github.com/AospExtended"
            revision="marshmallow" />
 
   <default revision="refs/tags/android-6.0.1_r61"
@@ -26,18 +26,23 @@
            sync-f="true"
            sync-q="true" />
 
+<!-- AospExtended -->
+  <project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="ex" />
+  <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="ex" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="ex" />
+  <project name="manifest" path="manifest" remote="ex" />
+
  
 <!-- AOSP-RRO -->
 
   <project name="platform_art" path="art" groups="pdk" remote="rro" />
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="local" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="rro" />
   <project name="platform_external_sepolicy" path="external/sepolicy" groups="pdk" remote="rro" />
   <project name="platform_external_dhcpcd" path="external/dhcpcd" remote="rro" />
-  <project name="platform_frameworks_base" path="frameworks/base" groups="pdk-cw-fs" remote="local" />
   <project name="platform_frameworks_av" path="frameworks/av" groups="pdk" remote="rro" />
   <project name="platform_frameworks_native" path="frameworks/native" groups="pdk" remote="rro" />
   <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="rro" />
@@ -62,7 +67,6 @@
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="local" />
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="rro" />
   <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal" remote="rro" />
@@ -81,8 +85,6 @@
   <project name="platform_system_keymaster" path="system/keymaster" remote="rro" />
   <project name="platform_system_security" path="system/security" remote="rro" />
   <project name="platform_system_vold" path="system/vold" groups="pdk" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="local" />
-  <project name="manifest" path="manifest" remote="rro" />
   
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
