@@ -54,9 +54,15 @@
   <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rro" />
   <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="rro" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs" remote="rro" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="rro" />
-  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="rro" />
-  <project path="packages/apps/Exchange" name="platform_packages_apps_Exchange" remote="rro" />
+  <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="rro" />
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="rro" />
+  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="rro" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="rro" />
+  <project name="platform_packages_apps_Email" path="packages/apps/Email" remote="rro" />
+  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange" remote="rro" />
+  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="rro" />
+  <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />
@@ -435,7 +441,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" />
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
