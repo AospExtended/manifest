@@ -15,6 +15,10 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="marshmallow" />
 
+  <remote name="caf"
+	  fetch="git://codeaurora.org/quic/la"
+	  revision="LA.BR.1.3.4_rb1.18" />
+
   <default revision="refs/tags/android-6.0.1_r61"
            remote="aosp"
            sync-j="8"
@@ -79,6 +83,11 @@
   <project name="platform_system_vold" path="system/vold" groups="pdk" remote="rro" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
   <project name="manifest" path="manifest" remote="rro" />
+
+<!-- Caf -->
+
+  <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="caf" />
+  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="caf" />
   
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
@@ -448,8 +457,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="slim" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
