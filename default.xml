@@ -15,10 +15,6 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="marshmallow" />
 
-  <remote name="caf"
-	  fetch="git://codeaurora.org/quic/la"
-	  revision="LA.BR.1.3.4_rb1.18" />
-
   <default revision="refs/tags/android-6.0.1_r61"
            remote="aosp"
            sync-j="8"
@@ -59,6 +55,8 @@
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="rro" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="rro" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="rro" />
+  <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="rro" />
+  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="rro" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="rro" />
   <project name="platform_packages_apps_OTA" path="packages/apps/OTA" remote="rro" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="rro" />
@@ -84,10 +82,6 @@
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
   <project name="manifest" path="manifest" remote="rro" />
 
-<!-- Caf -->
-
-  <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="caf" />
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="caf" />
   
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
