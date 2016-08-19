@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <project name="platform_device_motorola_titan" path="device/motorola/titan" remote="rro" />
- <project name="platform_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="rro" />
+ <project name="Vidhanth/platform_device_motorola_titan" path="device/motorola/titan" remote="github" revision="marshmallow"/>
+ <project name="Vidhanth/platform_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="marshmallow"/>
  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0" />
  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 </manifest>
