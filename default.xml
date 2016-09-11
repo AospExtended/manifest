@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="rro"
            fetch="https://github.com/AOSP-RRO"
-	         revision="nougat" />
+	   revision="nougat" />
 	   
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
