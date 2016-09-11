@@ -41,7 +41,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="rro" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="rro" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
