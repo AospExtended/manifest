@@ -45,12 +45,15 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="external/fuse" name="platform_external_fuse" remote="rro" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
   <project path="art" name="platform_art" groups="pdk" remote="rro" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
   <project name="manifest" path="manifest" remote="rro" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
+  <project path="system/extras" name="platform_system_extras" remote="rro" />
+  <project path="system/media" name="platform_system_media" remote="rro" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="rro" />
   
   <!-- CyanogenMod -->
