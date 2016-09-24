@@ -11,7 +11,7 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="nougat" />
 	   
-  <default revision="refs/tags/android-7.0.0_r1"
+  <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
 
