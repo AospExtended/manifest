@@ -18,10 +18,17 @@
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
-
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
+  
+  <!--AospExtended-->
+  <project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="ex" />
+  <project name="manifest" path="manifest" remote="ex" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex" />
+  <!-- -->
+  
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="rro" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -31,7 +38,6 @@
   
   <!-- AOSP-OMS -->
   
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
@@ -53,12 +59,9 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
   <project path="art" name="platform_art" groups="pdk" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
-  <project name="manifest" path="manifest" remote="rro" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="system/extras" name="platform_system_extras" remote="rro" />
   <project path="system/media" name="platform_system_media" remote="rro" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="rro" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
