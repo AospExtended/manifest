@@ -10,6 +10,10 @@
   <remote  name="rro"
            fetch="https://github.com/AOSP-RRO"
 	   revision="nougat" />
+  
+  <remote  name="ex"
+           fetch="https://github.com/AospExtended"
+	   revision="nougat" />
 	   
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
