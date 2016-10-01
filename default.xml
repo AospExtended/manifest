@@ -68,66 +68,66 @@
 	
 <!-- CyanogenMod -->
   
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8996" />
-  <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="staging/cm-14.0-caf" remote="github" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0-caf-8996" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0-caf-8996" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" remote="github" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="staging/cm-14.0-caf" remote="github" />
-  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="staging/cm-14.0" remote="github" />
-  <project path="external/htop" name="CyanogenMod/android_external_htop" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" revision="staging/cm-14.0" remote="github" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" revision="staging/cm-14.0" remote="github" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="staging/cm-14.0" remote="github" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="staging/cm-14.0" />  
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="staging/cm-14.0" />
-  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8996" />
+  <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.0-caf" remote="github" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8996" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8996" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.0-caf" remote="github" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.0" remote="github" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.0-caf" remote="github" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="cm-14.0" remote="github" />
+  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="cm-14.0" remote="github" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="cm-14.0" remote="github" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="cm-14.0" remote="github" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" revision="cm-14.0" remote="github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
+  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" revision="cm-14.0" remote="github" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" revision="cm-14.0" remote="github" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" revision="cm-14.0" remote="github" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="cm-14.0" remote="github" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-14.0" />  
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
   
   <!--AOSP -->
   
@@ -205,7 +205,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project name="CyanogenMod/android_system_netd" path="system/netd" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project name="CyanogenMod/android_system_netd" path="system/netd" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -575,23 +575,23 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Caf additions -->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="staging/cm-14.0" remote="github" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="staging/cm-14.0" remote="github" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="staging/cm-14.0" remote="github" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="staging/cm-14.0" remote="github" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="staging/cm-14.0" remote="github" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="staging/cm-14.0" remote="github" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="staging/cm-14.0" remote="github" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="staging/cm-14.0" remote="github" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="staging/cm-14.0" remote="github" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" remote="github" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="staging/cm-14.0" remote="github" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-14.0" remote="github" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="github" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="cm-14.0" remote="github" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-14.0" remote="github" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-14.0" remote="github" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-14.0" remote="github" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="cm-14.0" remote="github" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-14.0" remote="github" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-14.0" remote="github" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-14.0" remote="github" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.0" remote="github" />
 
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
