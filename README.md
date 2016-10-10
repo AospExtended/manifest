@@ -11,13 +11,11 @@ other projects and hence we are very thankful to them.
 
 ##Credits
 * [**AOSP-OMS(Base Rom)**](https://github.com/AOSP-RRO)
+* [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
 * [**Temasek**](https://github.com/temasek)
 * [**ZephyrOS**](https://github.com/Zephyr-OS)
 * [**TurboROM**](https://github.com/TurboROM)
 * [**TeamSubstratum(Theme Engine)**](https://github.com/TeamSubstratum)
-* [**Gustavo Campos 
-(Birdman)**](https://plus.google.com/108014036384818013467) **[For 
-providing build Server]**
 
 ##How to Build?
 
