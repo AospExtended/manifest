@@ -32,6 +32,7 @@
   <project name="platform_system_extras_su" path="system/extras/su" remote="ex" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="ex" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <!-- -->
   
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -45,7 +46,6 @@
   
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="rro" />
