@@ -33,6 +33,8 @@
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="ex" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="ex" revision="nougat" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="ex" revision="nougat" />	
   <!-- -->
   
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -579,5 +581,5 @@
 
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
-	
+
 </manifest>
