@@ -15,7 +15,7 @@
            fetch="https://github.com/AospExtended"
 	   revision="nougat" />
 
-  <default revision="refs/tags/android-7.0.0_r14"
+  <default revision="refs/tags/android-7.0.0_r19"
            remote="aosp"
            sync-j="4" />
   
