@@ -34,6 +34,7 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="ex" revision="nougat" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="ex" revision="nougat" />	
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ex" />
   <!-- -->
   
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -50,7 +51,6 @@
   <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="rro" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="rro" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="rro" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
