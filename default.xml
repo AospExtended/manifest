@@ -583,4 +583,7 @@
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
+  <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="n" />
+  <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
+
 </manifest>
