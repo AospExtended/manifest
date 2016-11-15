@@ -12,6 +12,7 @@ other projects and hence we are very thankful to them.
 ##Credits
 * [**AOSP-OMS(Base Rom)**](https://github.com/AOSP-RRO)
 * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+* [**AOSiP**](https://github.com/AOSIP)
 * [**Temasek**](https://github.com/temasek)
 * [**ZephyrOS**](https://github.com/Zephyr-OS)
 * [**TurboROM**](https://github.com/TurboROM)
