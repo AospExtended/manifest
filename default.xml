@@ -585,5 +585,7 @@
 
   <project path="packages/apps/LockClock" name="AOSIP/platform_packages_apps_LockClock" remote="github" revision="n" />
   <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n" />
+  <!--toolchains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DirtyUnicorns/arm-eabi-4.8" remote="github" revision="n" />
 
 </manifest>
