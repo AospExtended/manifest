@@ -581,7 +581,7 @@
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.0" remote="github" />
 
   <!-- masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <project path="packages/apps/LockClock" name="AOSIP/platform_packages_apps_LockClock" remote="github" revision="n" />
   <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n" />
