@@ -548,5 +548,7 @@
 
   <!-- TeamSubstratum -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n7x" />
+
 
 </manifest>
