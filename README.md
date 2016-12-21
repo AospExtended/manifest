@@ -1,21 +1,32 @@
-AOSP+OMS Nougat
+AospExtended Nougat
 ===========
+AospExtended is just an extension to AOSP ,through which we 
+are trying to provide a stock aosp experience along with some important 
+customization features.We have cherry-picked the features from many 
+other projects and hence we are very thankful to them.
 
-To initialize your local repository using the AOSP-OMS trees, use a 
+##Credits
+* [**JDCTeam(Base)**](https://github.com/AOSP-JF-MM)
+* [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+* [**AOSiP**](https://github.com/AOSIP)
+* [**ZephyrOS**](https://github.com/Zephyr-OS)
+* [**TurboROM**](https://github.com/TurboROM)
+* [**TeamSubstratum(Theme Engine)**](https://github.com/TeamSubstratum)
+
+##How to Build?
+
+To initialize your local repository using the AospExtended trees, use a 
 command like this:
 ````bash
-repo init -u git://github.com/AEX-tmp/manifest.git -b 7.1.1
+repo init -u git://github.com/AospExtended/manifest.git -b 7.1.1
 ```
 Then to sync up:
 ````bash
-repo sync
+repo sync -c -jx --force-sync
 ```
 Finally to build:
 ````bash
-./build.sh device_codename
+. build/envsetup.sh
+lunch aosp_device_codename
+mka bacon
 ```
-Example:
-````bash
-./build.sh falcon
-./build.sh titan
-./build.sh osprey
