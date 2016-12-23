@@ -478,6 +478,7 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
