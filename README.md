@@ -1,4 +1,6 @@
-<img src="https://github.com/AospExtended/manifest/raw/7.1.1/aex_logo.png" width="512px" height="512px" align="center" > 
+<p align="center">
+<img src="https://github.com/AospExtended/manifest/raw/7.1.1/aex_logo.png" width="512px" height="512px" > 
+</p>
 
 AospExtended Nougat
 ===========
