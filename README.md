@@ -1,3 +1,5 @@
+<img src="https://github.com/AospExtended/manifest/raw/7.1.1/aex_logo.png"> 
+
 AospExtended Nougat
 ===========
 AospExtended is just an extension to AOSP ,through which we 
