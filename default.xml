@@ -32,6 +32,7 @@
   <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="ex" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="ex" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="ex" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="ex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ex" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="ex" />
