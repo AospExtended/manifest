@@ -4,18 +4,24 @@
 
 AospExtended Nougat
 ===========
-AospExtended is just an extension to AOSP ,through which we 
-are trying to provide a stock aosp experience along with some important 
-customization features.We have cherry-picked the features from many 
+AospExtended is just an extension to AOSP, through which we 
+are trying to provide a stock AOSP experience along with some important 
+customization features. We have cherry-picked the features from many 
 other projects and hence we are very thankful to them.
 
 ##Credits
-* [**JDCTeam(Base)**](https://github.com/AOSP-JF-MM)
+* [**JDCTeam (Base)**](https://github.com/AOSP-JF-MM)
 * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
 * [**AOSiP**](https://github.com/AOSIP)
 * [**ZephyrOS**](https://github.com/Zephyr-OS)
 * [**TurboROM**](https://github.com/TurboROM)
 * [**TeamSubstratum(Theme Engine)**](https://github.com/TeamSubstratum)
+* [**SlimRoms**](https://github.com/SlimRoms)
+* [**BlissRoms**](https://github.com/BlissRoms)
+* [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+* [**Nitrogen Project**](https://github.com/nitrogen-project)
+* [**Pure Nexus**](https://github.com/PureNexusProject)
+* [**GZR Community**](https://plus.google.com/communities/109330559573276360638)
 
 ##How to Build?
 
