@@ -488,6 +488,7 @@
   <project path="vendor/qcom/opensource/dataservices/" name="lineageos/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/dpm/" name="lineageos/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/time-services/" name="lineageos/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1"/>
+  <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1"/>
 
   <!-- HALs -->
   <project path="hardware/akm" name="platform/hardware/akm" />
