@@ -489,6 +489,7 @@
   <project path="packages/apps/Eleven" name="lineageos/android_packages_apps_Eleven" remote="github" revision="cm-14.1" />
   <project path="packages/apps/FMRadio" name="lineageos/android_packages_apps_FMRadio" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
