@@ -543,7 +543,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/wlan" name="lineageos/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/wlan-caf" name="lineageos/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="ex" revision="7.1.1-caf" />
 
   <!-- Linux packages -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
