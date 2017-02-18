@@ -54,6 +54,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="ex" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="ex" />
+  <project path="external/busybox" name="platform_external_busybox" remote="ex" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="ex" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="ex" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="ex" />
