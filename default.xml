@@ -563,7 +563,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
 
   <!-- TeamSubstratum -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
   <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n7x" />
 
 
