@@ -15,7 +15,7 @@ other projects and hence we are very thankful to them.
 * [**AOSiP**](https://github.com/AOSIP)
 * [**ZephyrOS**](https://github.com/Zephyr-OS)
 * [**TurboROM**](https://github.com/TurboROM)
-* [**TeamSubstratum(Theme Engine)**](https://github.com/TeamSubstratum)
+* [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
 * [**SlimRoms**](https://github.com/SlimRoms)
 * [**BlissRoms**](https://github.com/BlissRoms)
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
