@@ -7,9 +7,13 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-   <remote fetch="git://codeaurora.org/quic/la"
-           name="caf"
-           review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/quic/la"
+          name="caf"
+          review="codeaurora.org"/>
+
+  <remote  name="aosp-jf"
+           fetch="https://github.com/AOSP-JF-MM"
+           revision="aosp-7.1.1" />
 
   <remote  name="ex"
            fetch="https://github.com/AospExtended"
