@@ -47,6 +47,6 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  lunch aosp_device_codename
-  mka bacon
+  lunch aosp_device_codename-userdebug
+  mka aex 
 ```
