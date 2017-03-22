@@ -9,7 +9,8 @@ are trying to provide a stock AOSP experience along with some important
 customization features. We have cherry-picked the features from many 
 other projects and hence we are very thankful to them.
 
-##Credits
+Credits
+-------
 * [**JDCTeam (Base)**](https://github.com/AOSP-JF-MM)
 * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
 * [**AOSiP**](https://github.com/AOSIP)
@@ -25,19 +26,19 @@ other projects and hence we are very thankful to them.
 * [**AOSiP**](https://github.com/AOSiP)
 * [**OmniROM**](https://github.com/omnirom/)
 
-##How to Build?
-
+How to Build?
+-------------
 To initialize your local repository using the AospExtended trees, use a 
 command like this:
-````bash
+```bash
 repo init -u git://github.com/AospExtended/manifest.git -b 7.1.1
 ```
 Then to sync up:
-````bash
+```bash
 repo sync -c -jx --force-sync
 ```
 Finally to build:
-````bash
+```bash
 . build/envsetup.sh
 lunch aosp_device_codename
 mka bacon
