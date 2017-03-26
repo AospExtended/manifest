@@ -65,6 +65,7 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="ex"  />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="ex"  />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="ex" />
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="ex" />
   
   
   <!--AOSP-JF -->
@@ -494,7 +495,6 @@
   <project path="frameworks/opt/net/ims" name="lineageos/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Nfc" name="lineageos/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/Eleven" name="lineageos/android_packages_apps_Eleven" remote="github" revision="cm-14.1" />
   <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="github" revision="cm-14.1" />
 
