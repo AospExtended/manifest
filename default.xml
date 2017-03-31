@@ -70,6 +70,11 @@
   
   
   <!--AOSP-JF -->
+  <project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="aosp-jf" />
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aosp-jf" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aosp-jf" />
   <project path="art" name="platform_art" groups="pdk" remote="aosp-jf" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aosp-jf" />
@@ -116,11 +121,6 @@
 
 
   <!-- AOSP packages -->
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
