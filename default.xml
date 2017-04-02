@@ -65,7 +65,6 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="ex"  />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="ex"  />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="ex" />
-  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="ex" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="ex" />
   
   
