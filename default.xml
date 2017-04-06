@@ -491,7 +491,7 @@
   <project path="external/protobuf-c" name="lineageos/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="lineageos/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/wpa_supplicant_8" name="lineageos/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="ex" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/Nfc" name="lineageos/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="cm-14.1" />
