@@ -13,7 +13,7 @@
 
   <remote  name="aosp-jf"
            fetch="https://github.com/AOSP-JF-MM"
-           revision="aosp-7.1.1" />
+           revision="aosp-7.1.2" />
 
   <remote  name="ex"
            fetch="https://github.com/AospExtended"
@@ -76,47 +76,48 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aosp-jf" />
-  <project path="art" name="platform_art" groups="pdk" remote="ex" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="ex" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="ex" />
+  <project path="art" name="platform_art" groups="pdk" remote="aosp-jf" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="aosp-jf" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aosp-jf" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosp-jf" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
-  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="ex" />
+  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="aosp-jf" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="aosp-jf" />
   <project path="external/chromium-webview" name="AOSP-JF-MM/platform_external_chromium-webview" groups="pdk" remote="github" revision="google" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="aosp-jf" />
-  <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="ex"/>
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="aosp-jf"/>
+  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
   <project path="external/jemalloc" name="platform_external_jemalloc" groups="pdk" remote="aosp-jf" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="aosp-jf" />
   <project path="external/lz4" name="platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="aosp-jf" />
-  <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-  <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="ex" />
+  <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+  <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp-jf" />
   <project path="external/stlport" name="platform_external_stlport" remote="aosp-jf" />
-  <project path="external/tinyalsa" name="platform_external_tinyalsa" groups="pdk" remote="ex" />
+  <project path="external/tinyalsa" name="platform_external_tinyalsa" groups="pdk" remote="aosp-jf" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aosp-jf" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="aosp-jf" />
   <project path="external/yaffs2" name="platform_external_yaffs2" groups="pdk" remote="aosp-jf" />
   <project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="aosp-jf" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="ex" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="ex" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aosp-jf" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aosp-jf" />
   <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" groups="pdk-fs" remote="aosp-jf" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="ex" />
-  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="ex" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="ex" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="ex" />  
-  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="ex" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-  <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="ex" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aosp-jf" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="aosp-jf" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="aosp-jf" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />  
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="aosp-jf" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+  <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aosp-jf" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" groups="pdk" remote="aosp-jf" />
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="aosp-jf" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk-fs" remote="ex" />
-  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ex" />
-  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="ex" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ex" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk-fs" remote="aosp-jf" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-jf" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-jf" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aosp-jf" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp-jf" />
 
 
   <!-- AOSP packages -->
@@ -491,7 +492,6 @@
   <project path="external/protobuf-c" name="lineageos/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="lineageos/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/wpa_supplicant_8" name="lineageos/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/Nfc" name="lineageos/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="cm-14.1" />
@@ -513,7 +513,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aosp-jf" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aosp-jf" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" remote="aosp-jf" revision="aosp-7.1.1-caf" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" remote="aosp-jf" revision="aosp-7.1.2-caf" />
   <project path="hardware/qcom/audio/default" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
