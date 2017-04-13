@@ -50,7 +50,6 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="ex" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ex"  />
-  <project path="external/busybox" name="platform_external_busybox" remote="ex" revision="7.x" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="ex"  />
   <project path="libcore" name="platform_libcore" groups="pdk"  remote="ex"  />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="ex"  />
@@ -474,6 +473,7 @@
   <project path="external/ant-wireless/ant_service" name="lineageos/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="lineageos/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
   <project path="external/brctl" name="lineageos/android_external_brctl" remote="github" revision="cm-14.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
   <project path="external/e2fsprogs" name="lineageos/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
   <project path="external/ebtables" name="lineageos/android_external_ebtables" remote="github" revision="cm-14.1" />
   <project path="external/exfat" name="lineageos/android_external_exfat" remote="github" revision="cm-14.1" />
