@@ -36,7 +36,6 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex"  />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/AEXOTA" name="platform_packages_apps_AEXOTA" groups="pdk-fs" remote="ex" />
-  <project path="packages/apps/AEXPapers" name="platform_packages_apps_AEXPapers" groups="pdk-fs" remote="ex" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="ex" />
