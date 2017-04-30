@@ -567,7 +567,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
 
   <!-- Substratum -->
-  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n7x" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="n7x" />
