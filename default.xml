@@ -65,7 +65,7 @@
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" remote="ex" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="ex" />
-  
+  <project path="packages/apps/DSPlibs" name="platform_packages_apps_DSPlibs" remote="ex" />  
   
   <!--AOSP-JF -->
   <project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="aosp-jf" />
