@@ -118,8 +118,8 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp-jf" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosp-jf" />
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosp-jf" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp-jf" />
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp-jf" />
+  <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" groups="pdk-fs" remote="aosp-jf" />
+  <project path="system/security" name="platform_system_security" groups="pdk" remote="aosp-jf" />
 
 
   <!-- AOSP packages -->
