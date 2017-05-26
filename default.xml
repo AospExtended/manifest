@@ -120,6 +120,10 @@
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosp-jf" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" groups="pdk-fs" remote="aosp-jf" />
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aosp-jf" />
+  <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
+  <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf"/>
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
+
 
 
   <!-- AOSP packages -->
@@ -245,7 +249,6 @@
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
@@ -257,7 +260,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
-  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
@@ -344,7 +346,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
-  <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
