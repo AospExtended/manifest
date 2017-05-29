@@ -122,7 +122,7 @@
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aosp-jf" />
   <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
   <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="aosp-jf" revision="7.1.2" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aosp-jf" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
 
 
