@@ -23,7 +23,6 @@ Credits
 * [**Nitrogen Project**](https://github.com/nitrogen-project)
 * [**Pure Nexus**](https://github.com/PureNexusProject)
 * [**GZR Community**](https://plus.google.com/communities/109330559573276360638)
-* [**AOSiP**](https://github.com/AOSiP)
 * [**OmniROM**](https://github.com/omnirom/)
 
 How to Build?
