@@ -122,6 +122,7 @@
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aosp-jf" />
   <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
   <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf"/>
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aosp-jf" revision="7.1.2" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
 
 
@@ -493,7 +494,6 @@
   <project path="external/stagefright-plugins" name="lineageos/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/wpa_supplicant_8" name="lineageos/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
-  <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
