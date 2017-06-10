@@ -70,6 +70,7 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="ex" />
   <project path="system/security" name="platform_system_security" groups="pdk" remote="ex" />
   <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" groups="pdk" remote="ex" />
+  <project path="utilities/Documentation_and_thread-template" name="Documentation_and_thread-template" remote="ex" />
 
   
   <!--AOSP-JF -->
