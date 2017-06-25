@@ -7,9 +7,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote fetch="git://codeaurora.org/quic/la"
-          name="caf"
-          review="codeaurora.org"/>
+  <remote  fetch="git://codeaurora.org/quic/la"
+           name="caf"
+           review="codeaurora.org"/>
 
   <remote  name="aosp-jf"
            fetch="https://github.com/AOSP-JF-MM"
@@ -67,6 +67,7 @@
   <project path="packages/apps/DSPlibs" name="platform_packages_apps_DSPlibs" remote="ex" />  
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="ex" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ex" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="ex" />
   <project path="system/security" name="platform_system_security" groups="pdk" remote="ex" />
   <project path="external/dhcpcd-6.8.2" name="platform_external_dhcpcd-6.8.2" groups="pdk" remote="ex" />
