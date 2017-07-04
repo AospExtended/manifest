@@ -29,6 +29,7 @@
            sync-j="4" />
 
  <!-- AospExtended -->
+  <project path="manifest" name="manifest" remote="ex" />
   <project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
