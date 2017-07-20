@@ -77,7 +77,6 @@
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="ex" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="ex" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-  <project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="ex" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="ex" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="ex" />
 
@@ -127,10 +126,11 @@
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosp-jf" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" groups="pdk-fs" remote="aosp-jf" />
   <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
-  <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf"/>
+  <project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="aosp-jf" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
-
+  <project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="aosp-jf" />
+  <project path="vendor/qcom/opensource/dpm/" name="android_vendor_qcom_opensource_dpm" remote="aosp-jf" />
 
 
   <!-- AOSP packages -->
@@ -503,7 +503,6 @@
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/bluetooth" name="lineageos/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/dataservices/" name="lineageos/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1"/>
-  <project path="vendor/qcom/opensource/dpm/" name="lineageos/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/time-services/" name="lineageos/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1"/>
 
