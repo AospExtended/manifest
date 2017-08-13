@@ -24,6 +24,7 @@ Credits
 * [**Pure Nexus**](https://github.com/PureNexusProject)
 * [**GZR Community**](https://plus.google.com/communities/109330559573276360638)
 * [**OmniROM**](https://github.com/omnirom/)
+* [**AOSPA**](https://github.com/aospa/)
 
 How to Build?
 -------------
@@ -39,7 +40,7 @@ Then to sync up:
 ----------------
 
 ```bash
-  repo sync -c -jx --force-sync
+  repo sync -c -jx --force-sync --no-clone-bundle --no-tags
 ```
 Finally to build:
 -----------------
@@ -47,5 +48,5 @@ Finally to build:
 ```bash
   . build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  mka aex 
+  mka aex -jx
 ```
