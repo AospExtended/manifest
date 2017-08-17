@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
-           
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -17,6 +17,10 @@
 
   <remote  name="ex"
            fetch="https://github.com/AospExtended"
+           revision="7.x" />
+
+  <remote  name="exssh"
+           fetch="git@github.com:AospExtended"
            revision="7.x" />
   
   <remote  name="aex-devices"
@@ -134,7 +138,9 @@
   <project path="vendor/qcom/opensource/dpm/" name="android_vendor_qcom_opensource_dpm" remote="aosp-jf" />
   <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="aosp-jf" />
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="android_vendor_qcom_sdclang-3.8_linux-x86" remote="aosp-jf" />
-
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aosp-jf" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" groups="pdk" remote="aosp-jf" />
+  <project path="external/gemmlowp" name="platform_external_gemmlowp" remote="aosp-jf" />
 
   <!-- AOSP packages -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -204,7 +210,6 @@
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/gemmlowp" name="platform/external/gemmlowp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/gmock" name="platform/external/gmock" groups="pdk" />
@@ -381,7 +386,6 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -496,7 +500,6 @@
   <project path="external/powertop" name="lineageos/android_external_powertop" remote="github" revision="cm-14.1" />
   <project path="external/protobuf-c" name="lineageos/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="lineageos/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
-  <project path="external/wpa_supplicant_8" name="lineageos/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="github" revision="cm-14.1" />
 
