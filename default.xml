@@ -5,7 +5,8 @@
            fetch="https://github.com/" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="android-review.googlesource.com" />
 
   <remote  fetch="git://codeaurora.org/quic/la"
            name="caf"
@@ -17,7 +18,8 @@
 
   <remote  name="ex"
            fetch="https://github.com/AospExtended"
-           revision="7.x" />
+           revision="7.x"
+           review="gerrit.aospextended.com" />
 
   <remote  name="exssh"
            fetch="git@github.com:AospExtended"
