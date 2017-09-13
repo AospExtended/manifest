@@ -524,7 +524,6 @@
   <project path="hardware/qcom/audio/default" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8937" />
   <project path="hardware/qcom/audio-caf/msm8952" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
@@ -538,7 +537,6 @@
   <project path="hardware/qcom/display" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/display-caf/apq8084" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8937" />
   <project path="hardware/qcom/display-caf/msm8952" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8960" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8974" />
@@ -551,7 +549,6 @@
   <project path="hardware/qcom/media" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/media-caf/apq8084" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8937" />
   <project path="hardware/qcom/media-caf/msm8952" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8974" />
