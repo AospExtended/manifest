@@ -87,6 +87,9 @@
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="external/libpng" name="platform_external_libpng" groups="pdk" remote="ex" />
   <project path="external/jemalloc" name="platform_external_jemalloc" groups="pdk" remote="ex" />
+  <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="ex" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="ex" />
+  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="ex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="ex" />
 
   
@@ -129,7 +132,6 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-jf" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aosp-jf" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp-jf" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosp-jf" />
   <project path="external/libchrome" name="platform_external_libchrome" remote="aosp-jf" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" groups="pdk-fs" remote="aosp-jf" />
   <project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
@@ -138,7 +140,6 @@
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
   <project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="aosp-jf" />
   <project path="vendor/qcom/opensource/dpm/" name="android_vendor_qcom_opensource_dpm" remote="aosp-jf" />
-  <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="aosp-jf" />
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="android_vendor_qcom_sdclang-3.8_linux-x86" remote="aosp-jf" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aosp-jf" />
   <project path="frameworks/rs" name="platform_frameworks_rs" groups="pdk" remote="aosp-jf" />
@@ -251,7 +252,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" />
   <project path="external/libcap" name="platform/external/libcap" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
@@ -264,7 +264,6 @@
   <project path="external/libevent" name="platform/external/libevent" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
@@ -280,7 +279,6 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libweave" name="platform/external/libweave" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
@@ -339,7 +337,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
@@ -352,7 +349,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
   <project path="external/tpm2" name="platform/external/tpm2" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
@@ -370,7 +366,6 @@
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
@@ -504,6 +499,12 @@
   <project path="external/stagefright-plugins" name="lineageos/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="github" revision="cm-14.1" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
@@ -515,7 +516,6 @@
   <!-- HALs -->
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" groups="pdk" remote="aosp-jf" />
-  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aosp-jf" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aosp-jf" />
