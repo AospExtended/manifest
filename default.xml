@@ -28,7 +28,7 @@
            fetch="https://github.com/AospExtended-Devices"
            revision="refs/heads/8.x" />
 
-  <default revision="refs/tags/android-8.0.0_r11"
+  <default revision="refs/tags/android-8.0.0_r17"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
