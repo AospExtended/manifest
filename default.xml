@@ -74,7 +74,9 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
+  <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="aex" />
 
   
   <!--AOSP-JF -->
@@ -88,11 +90,9 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aosp-jdc" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aosp-jdc" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aosp-jdc" />
-  <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="aosp-jdc" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aosp-jdc" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="aosp-jdc" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aosp-jdc" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp-jdc" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aosp-jdc" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-jdc" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aosp-jdc" />
