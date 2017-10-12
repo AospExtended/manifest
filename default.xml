@@ -250,8 +250,6 @@
   <project path="external/libmojo" name="platform/external/libmojo" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
-  <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
-  <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -562,7 +560,8 @@
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
-
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="los" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="los" />
 
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosp-jdc" />
