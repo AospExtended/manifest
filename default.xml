@@ -99,6 +99,7 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-jdc" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aosp-jdc"  />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jdc" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="github" revision="aosp-jdc" />
 
   <!-- AOSP packages -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
