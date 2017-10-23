@@ -58,6 +58,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/qcom" name="platform_system_qcom" groups="qcom" remote="aex" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
@@ -96,7 +97,6 @@
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="aosp-jdc" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aosp-jdc" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aosp-jdc" />
-  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-jdc" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aosp-jdc"  />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jdc" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosp-jdc" />
