@@ -36,6 +36,7 @@
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
   <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="aex" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aex" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
@@ -53,6 +54,7 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
