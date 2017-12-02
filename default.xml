@@ -505,6 +505,9 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" groups="pdk" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
