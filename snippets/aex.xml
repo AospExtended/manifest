@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project path="manifest" name="manifest" remote="aex" />
+  <project path="manifest" name="manifest" remote="aex" />
+  <project path="build/make" name="platform_build" remote="aex" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aex" />
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aex" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
+  <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
+  <project path="external/connectivity" name="platform_external_connectivity" groups="pdk" remote="aex" />
+  <project path="external/ebtables" name="platform_external_ebtables" groups="pdk" remote="aex" />
+  <project path="external/exfat" name="platform_external_exfat" remote="aex" />
+  <project path="external/fuse" name="platform_external_fuse" remote="aex" />
+  <project path="external/htop" name="platform_external_htop" remote="aex" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aex" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="aex" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aex" />
+  <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="aex" />
+  <project path="external/nano" name="platform_external_nano" remote="aex" />
+  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="aex" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
+  <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="aex" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aex" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
+  <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" remote="aex" >
+      <copyfile dest="hardware/aosp/Android.bp" src="Android.bp"/>
+  </project>
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" groups="pdk" remote="aex" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aex" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
+  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aex" />
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
+  <project path="packages/apps/AEXOTA" name="platform_packages_apps_AEXOTA" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/SlimRecents" name="platform_packages_apps_SlimRecents" groups="pdk-fs" remote="aex" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aex" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aex" />
+  <project path="system/media" name="platform_system_media" groups="pdk" remote="aex" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk" remote="aex" />
+  <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="aex" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
+
+  <!-- HardWare QCOM -->
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" />
+<!--  <project path="hardware/qcom/audio-caf/apq8084" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8084" /> -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8916" />
+<!--  <project path="hardware/qcom/audio-caf/msm8937" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" revision="8.x-caf-8998" /> -->
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" />
+<!--  <project path="hardware/qcom/display-caf/apq8084" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8084" /> -->
+  <project path="hardware/qcom/display-caf/msm8916" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8916" />
+<!--  <project path="hardware/qcom/display-caf/msm8937" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" revision="8.x-caf-8998" /> -->
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="aex"/>
+<!--  <project path="hardware/qcom/media-caf/apq8084" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8084" /> -->
+  <project path="hardware/qcom/media-caf/msm8916" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8916" />
+<!--  <project path="hardware/qcom/media-caf/msm8937" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" groups="qcom" remote="aex" revision="8.x-caf-8998" /> -->
+
+  <!-- Ant Wireless -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="aex" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aex" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aex" />
+
+  <!-- Device -->
+  <project path="device/qcom/common" name="platform_device_qcom_common" remote="aex" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aex" />
+
+  <!-- External -->
+  <project path="external/brctl" name="platform_external_brctl" remote="aex" />
+  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="aex" />
+  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="aex" />
+  <project path="external/powertop" name="platform_external_powertop" remote="aex" />
+
+  <!-- HALs -->
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="aex" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="aex" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom,pdk" remote="aex" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" remote="aex" revision="8.x-caf" />
+  <project path="system/qcom" name="platform_system_qcom" groups="pdk" remote="aex" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom" remote="aex" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" remote="aex" revision="8.x-caf" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aex" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aex" revision="8.x-caf" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="aex" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aex" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aex" />
+  <!--project path="vendor/qcom/opensource/dpm" name="platform_vendor_qcom_opensource_dpm" remote="aex" />-->
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aex" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+</project>
 
 </manifest>
