@@ -86,6 +86,7 @@
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
@@ -109,7 +110,10 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
 

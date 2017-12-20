@@ -74,7 +74,10 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aex" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aex" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk" remote="aex" />
+  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="aex" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
   <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
@@ -138,6 +141,7 @@
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aex" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aex" revision="8.x-caf" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="aex" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom_camera" remote="aex" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aex" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aex" />
