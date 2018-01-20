@@ -68,8 +68,6 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
-  <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />

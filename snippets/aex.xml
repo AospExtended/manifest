@@ -125,8 +125,6 @@
 
   <!-- External -->
   <project path="external/brctl" name="platform_external_brctl" remote="aex" />
-  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="aex" />
-  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="aex" />
   <project path="external/powertop" name="platform_external_powertop" remote="aex" />
 
   <!-- HALs -->
