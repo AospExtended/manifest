@@ -156,7 +156,6 @@
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
@@ -363,7 +362,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
@@ -472,6 +470,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- LineageOS -->
+  <project path="external/aac" name="lineageos/android_external_aac" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_native" name="lineageos/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="lineageos/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="lineageos/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
@@ -503,6 +502,7 @@
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="github" revision="cm-14.1" />
