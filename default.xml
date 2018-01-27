@@ -29,7 +29,7 @@
            fetch="https://github.com/AospExtended-Devices"
            revision="7.x" />
 
-  <default revision="refs/tags/android-7.1.2_r29"
+  <default revision="refs/tags/android-7.1.2_r36"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
