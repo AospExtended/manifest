@@ -89,6 +89,7 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
