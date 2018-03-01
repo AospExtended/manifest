@@ -40,6 +40,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ex" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="ex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex"  />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
@@ -101,7 +102,6 @@
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aosp-jf" />
   <project path="art" name="platform_art" groups="pdk" remote="aosp-jf" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aosp-jf" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosp-jf" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="aosp-jf" />
@@ -507,6 +507,7 @@
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
@@ -533,7 +534,6 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8998" />
-  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="lineageos/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/bt-caf" name="lineageos/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1-caf" />
   <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="aosp-jf" />
