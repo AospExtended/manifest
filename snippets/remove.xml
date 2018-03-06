@@ -76,6 +76,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
@@ -112,6 +113,7 @@
   <remove-project name="platform/system/hwservicemanager" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
 
