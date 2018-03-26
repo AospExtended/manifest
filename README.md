@@ -63,7 +63,7 @@ we have our specific guidelines regarding Official Device, Template, Gerrit etc.
 - [Telegram Channel](https://telegram.me/aospextended/) 
 - [Theme Resources](https://github.com/AospExtended/AEX-Scripts/) 
 - [Extended Devices](https://github.com/AospExtended-devices/) 
-- [Settings - About us section](https://github.com/AospExtended/platform_packages_apps_Settings/blob/8.1.x/res/values/ex_maintainers.xml)
+- [Our Blog](https://blog.aospextended.com/)
 - [Markdown editor ](http://dillinger.io/) 
 - [Markdown cheatsheet ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 - [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/index.html/) 
