@@ -26,6 +26,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="aex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" remote="aex" >
       <copyfile dest="hardware/aosp/Android.bp" src="Android.bp"/>
