@@ -13,6 +13,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
 </manifest>
