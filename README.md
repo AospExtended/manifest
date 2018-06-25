@@ -67,7 +67,7 @@ we have our specific guidelines regarding Official Device, Template, Gerrit etc.
 - [Our Blog](https://blog.aospextended.com/)
 - [Markdown editor ](http://dillinger.io/) 
 - [Markdown cheatsheet ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-- [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/index.html/) 
+- [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/intro-user.html) 
 - [AospExtended Gallery](https://aospextended.imgur.com/) 
 - [Facebook page!](https://www.facebook.com/aospextended/) 
 
