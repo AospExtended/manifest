@@ -40,6 +40,7 @@
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aex" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
