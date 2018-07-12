@@ -72,7 +72,10 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/qcom" name="platform_system_qcom" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" revision="8.1.x-gsi">
+   <linkfile src="GSI/buildsupport/aex.sh" dest="aex.sh" />
+   <linkfile src="GSI/buildsupport/apply-patches.sh" dest="apply-patches.sh"/ >
+   <linkfile src="GSI/buildsupport/list-patches.sh" dest="list-patches.sh" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="aex" clone-depth="1" />
 
   <!-- HardWare QCOM -->
