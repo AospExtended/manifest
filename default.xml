@@ -16,6 +16,10 @@
            fetch="https://github.com/AospExtended-Devices" 
            revision="refs/heads/9.x" />
 
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
+
   <default revision="refs/tags/android-9.0.0_r1"
            remote="aosp"
            sync-j="4" 
