@@ -129,21 +129,21 @@
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-15.1" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" revision="lineage-15.1" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-15.1-caf" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-16.0-caf" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
   <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" remote="aex" revision="9.x-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aex" revision="9.x-caf" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="aex" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-15.1" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-16.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" revision="lineage-16.0" />
   <!--project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="los" />-->
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" revision="lineage-16.0" >
+  <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="los" revision="lineage-15.1" />
 
