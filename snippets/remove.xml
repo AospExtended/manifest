@@ -73,6 +73,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
@@ -82,6 +83,7 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
