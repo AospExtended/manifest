@@ -77,6 +77,11 @@
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8998" />
 <!--  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-845" /> -->
 
+  <!-- Broadcom Hardware -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="los" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
+
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="los" />
