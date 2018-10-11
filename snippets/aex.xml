@@ -18,6 +18,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk,tradefed" remote="aex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
@@ -26,12 +27,19 @@
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" remote="aex" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aex" />
+  <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
@@ -97,7 +105,7 @@
 
   <!-- Device -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" />
-<!--  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aex" /> -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aex" />
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="los" />
@@ -150,7 +158,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <!--project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="los" />-->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
