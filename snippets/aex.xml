@@ -128,7 +128,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
 
@@ -158,7 +158,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aex" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <!--project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="los" />-->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
