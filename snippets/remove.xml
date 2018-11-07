@@ -19,6 +19,9 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/crosshatch"/>
+  <remove-project name="device/google/crosshatch-kernel"/>
+  <remove-project name="device/google/crosshatch-sepolicy"/>
   <remove-project name="device/google/cuttlefish" />
   <remove-project name="device/google/cuttlefish_common" />
   <remove-project name="device/google/cuttlefish_kernel" />
@@ -68,6 +71,13 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt"/>
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr"/>
+  <remove-project name="platform/hardware/qcom/sdm845/display"/>
+  <remove-project name="platform/hardware/qcom/sdm845/gps"/>
+  <remove-project name="platform/hardware/qcom/sdm845/media"/>
+  <remove-project name="platform/hardware/qcom/sdm845/thermal"/>
+  <remove-project name="platform/hardware/qcom/sdm845/vr"/>
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/libhardware" />
