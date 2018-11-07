@@ -99,7 +99,7 @@
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="los" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
 
 
   <!-- Ant Wireless -->
