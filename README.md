@@ -37,7 +37,7 @@ Then to sync up:
 ----------------
 
 ```bash
-  repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 Finally to build:
 -----------------
@@ -45,7 +45,7 @@ Finally to build:
 ```bash
   . build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  mka aex -jx
+  mka aex -j$(nproc --all)
 ```
 
 
