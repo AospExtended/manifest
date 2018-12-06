@@ -147,8 +147,8 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="los" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="los" />
-  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-15.1" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" revision="lineage-15.1" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-16.0-caf" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
@@ -176,5 +176,6 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="los" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
 
 </manifest>
