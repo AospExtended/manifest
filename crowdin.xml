@@ -13,6 +13,8 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="aex" />
+  <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="aex" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
