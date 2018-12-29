@@ -5,6 +5,7 @@
   <project path="art" name="platform_art" groups="pdk" remote="aex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aex" />
   <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
