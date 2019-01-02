@@ -49,6 +49,7 @@
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aex" />
   <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/WeatherClient" name="platform_packages_apps_WeatherClient" remote="aex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
