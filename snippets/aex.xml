@@ -124,7 +124,6 @@
   <project path="external/bash" name="android_external_bash" remote="los" />
 <!--  <project path="external/powertop" name="android_external_powertop" remote="los" revision="lineage-15.1" /> -->
   <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="los" />
-  <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
