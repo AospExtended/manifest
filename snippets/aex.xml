@@ -128,6 +128,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
@@ -157,6 +158,7 @@
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-16.0-caf" />
+  <project path="system/timezone" name="android_system_timezone" groups="pdk" revision="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
