@@ -124,4 +124,5 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/libdrm" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
 </manifest>
