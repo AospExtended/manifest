@@ -47,29 +47,23 @@ Finally to build:
   lunch aosp_device_codename-userdebug
   mka aex -j$(nproc --all)
 ```
+##Report build issues
+- You can reach us via [Telegram](https://t.me/aospextendedgroup)
 
+## Maintain Officially
+- If you're building **AospExtended** for an unofficial device and would like to make it official, Check out the link below for more information about the requirements for both you and your device.  
+- [Click here for more info](https://github.com/AospExtended/Documentation_and_thread-template) (**Read full README**)
 
-Please do not forget to go through our [Documentation, Official Devices & Thread Template](https://github.com/AospExtended/Documentation_and_thread-template/) where
-we have our specific guidelines regarding Official Device, Template, Gerrit etc.
+### Important Links:
 
-## Important Links:
-
-- [Our Website, Downloads and Usage Statistics](http://www.aospextended.com/) 
-- [Our Github](https://github.com/AospExtended/)  
-- [Gerrit Code Review](http://gerrit.aospextended.com/) 
-- [Documentation, Official Devices & Thread Template](https://github.com/AospExtended/Documentation_and_thread-template/) 
-- [Apply for Offiical devices](https://github.com/AospExtended/official_devices) 
-- [Device official builds & changelog](https://github.com/AospExtended-Devices/official_builds)
+- [Website](http://www.aospextended.com/)
+- [Download Center](https://downloads.aospextended.com/)
+- [Blog](https://blog.aospextended.com/)
+- [Gerrit Code Review](http://gerrit.aospextended.com/)
+- [Telegram Channel](https://telegram.me/aospextended/)
+- [Documentation & Thread Template](https://github.com/AospExtended/Documentation_and_thread-template/) 
 - [Help us translate AospExtended ROM and bring it to the world!](http://translate.aospextended.com/)
-- [Our Blog](https://blog.aospextended.com/)
-- [Telegram Channel](https://telegram.me/aospextended/) 
 - [Theme Resources](https://github.com/AospExtended/AEX-Scripts/) 
-- [Extended Devices](https://github.com/AospExtended-devices/) 
-- [Markdown editor](http://dillinger.io/) 
-- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-- [JSON formatter](https://jsonformatter.curiousconcept.com/)
-- [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/intro-user.html) 
-- [AospExtended Gallery](https://aospextended.imgur.com/) 
-- [Facebook page!](https://www.facebook.com/aospextended/) 
-
-
+- [Extended Devices](https://github.com/AospExtended-devices/)
+- [Gallery](https://aospextended.com/gallery)
+- [Facebook page!](https://www.facebook.com/aospextended/)
