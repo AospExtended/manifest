@@ -47,7 +47,7 @@ Finally to build:
   lunch aosp_device_codename-userdebug
   mka aex -j$(nproc --all)
 ```
-##Report build issues
+## Report build issues
 - You can reach us via [Telegram](https://t.me/aospextendedgroup)
 
 ## Maintain Officially
