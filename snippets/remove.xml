@@ -127,4 +127,6 @@
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/opencv" />
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
 </manifest>
