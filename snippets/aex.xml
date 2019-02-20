@@ -40,6 +40,7 @@
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aex" />
+  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="aex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="aex" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
@@ -55,6 +56,7 @@
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aex" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" />
+  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" remote="aex" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aex" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="aex" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
@@ -148,6 +150,7 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/skia" name="android_external_skia" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
