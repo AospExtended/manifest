@@ -72,6 +72,7 @@
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk" remote="aex" />
   <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="aex" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" groups="pdk" remote="los" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/qcom" name="platform_system_qcom" groups="pdk" remote="aex" />
@@ -139,6 +140,8 @@
   <project path="external/fuse" name="android_external_fuse" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
+  <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="los" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="los"/>
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
@@ -151,6 +154,7 @@
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="los"/>
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
