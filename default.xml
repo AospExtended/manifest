@@ -12,6 +12,10 @@
            fetch="https://github.com/AospExtended"
            revision="refs/heads/9.x" />
 
+  <remote  name="aex-lab"
+           fetch="https://gitlab.com/AospExtended"
+           revision="refs/heads/9.x" />
+
   <remote  name="aex-devices"
            fetch="https://github.com/AospExtended-Devices" 
            revision="refs/heads/9.x" />
