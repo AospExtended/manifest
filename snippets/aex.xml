@@ -71,7 +71,7 @@
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aex" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="system/hwservicemanager" name="platform_system_hwservicemanager" groups="pdk" remote="aex" />
-  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="aex" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="los" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" groups="pdk" remote="los" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
@@ -173,6 +173,7 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-15.1-caf" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
