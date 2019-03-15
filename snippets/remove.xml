@@ -130,7 +130,7 @@
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/external/libavc" />
-  <remove-project name="platform/external/hevc" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/tools/hidl" />
