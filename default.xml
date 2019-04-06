@@ -507,7 +507,7 @@
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="cm-14.1" />
-
+  <project path="external/google" name="LineageOS/android_external_google" remote="github" revision="cm-14.1" />
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/bluetooth" name="lineageos/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
@@ -583,7 +583,6 @@
   <!-- Substratum -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
-  <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n7x" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="n7x" />
 
 
