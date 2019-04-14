@@ -32,6 +32,11 @@ command like this:
 ```bash
   repo init -u git://github.com/AospExtended/manifest.git -b 9.x
 ```
+To initialize a shallow clone, which will save even more space & time, use a command like this:
+
+```bash
+  repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 9.x
+```
   
 Then to sync up:
 ----------------
@@ -45,7 +50,7 @@ Finally to build:
 ```bash
   . build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  mka aex -j$(nproc --all)
+  mka aex -j$(nproc --all) | tee log.txt
 ```
 ## Report build issues
 - You can reach us via [Telegram](https://t.me/aospextendedgroup)
