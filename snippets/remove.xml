@@ -134,6 +134,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/tools/hidl" />
-  <remove-project name="platform/system/libmpeg2" />
-  <remove-project name="platform/system/tremolo" />
+  <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/tremolo" />
 </manifest>
