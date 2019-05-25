@@ -168,7 +168,6 @@
   <project path="external/avahi" name="platform/external/avahi" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" />
   <project path="external/caliper" name="platform/external/caliper" />
@@ -182,7 +181,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
-  <project path="external/curl" name="platform/external/curl" />
   <project path="external/dagger2" name="platform/external/dagger2" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" />
@@ -277,7 +275,6 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libweave" name="platform/external/libweave" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
@@ -301,7 +298,6 @@
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/neven" name="platform/external/neven" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
@@ -346,7 +342,6 @@
   <project path="external/tlsdate" name="platform/external/tlsdate" />
   <project path="external/tpm2" name="platform/external/tpm2" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
@@ -447,7 +442,6 @@
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
-  <project path="system/update_engine" name="platform/system/update_engine" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
@@ -507,6 +501,13 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/google" name="LineageOS/android_external_google" remote="github" revision="cm-14.1" />
+  <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="github" revision="cm-14.1" />
+
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/bluetooth" name="lineageos/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
