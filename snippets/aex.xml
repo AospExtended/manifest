@@ -24,6 +24,7 @@
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aex" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aex" />
+  <project path="external/sfntly" name="platform_external_sfntly" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
