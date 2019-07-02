@@ -155,6 +155,7 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="los"/>
   <project path="external/tremolo" name="android_external_tremolo" remote="los" />
