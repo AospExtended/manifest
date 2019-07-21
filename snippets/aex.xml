@@ -168,6 +168,7 @@
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf" />
+  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="los" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
@@ -203,6 +204,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="los"/>
 
   <!-- SDClang repo's from ThankYouMario (AOSPA) -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang/3.9/prebuilt/linux-x86_64" remote="github" revision="pie" />
