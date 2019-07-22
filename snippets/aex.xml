@@ -19,6 +19,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="development" name="platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="aex"/>
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk,tradefed" remote="aex" />
   <project path="frameworks/opt/net/voip" name="platform_frameworks_opt_net_voip" groups="pdk" remote="aex" />
