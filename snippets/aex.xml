@@ -20,6 +20,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
+  <project path="development" name="platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="aex"/>
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="aex" />
   <project path="external/vixl" name="platform_external_vixl" groups="pdk" remote="aex" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk,tradefed" remote="aex" />
