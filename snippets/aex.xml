@@ -24,6 +24,7 @@
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="aex" />
   <project path="external/vixl" name="platform_external_vixl" groups="pdk" remote="aex" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk,tradefed" remote="aex" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="pdk" remote="aex" />
   <project path="frameworks/opt/net/voip" name="platform_frameworks_opt_net_voip" groups="pdk" remote="aex" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
@@ -45,6 +46,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aex" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aex" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aex" />
