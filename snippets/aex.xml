@@ -133,7 +133,7 @@
   <project path="external/bash" name="android_external_bash" remote="los" />
 <!--  <project path="external/powertop" name="android_external_powertop" remote="los" revision="lineage-15.1" /> -->
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="los" clone-depth="1" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="los" revision="master" clone-depth="1" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
