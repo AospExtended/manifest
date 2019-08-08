@@ -205,6 +205,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
   <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="los"/>
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="los" />
 
   <!-- SDClang repo's from ThankYouMario (AOSPA) -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang/3.9/prebuilt/linux-x86_64" remote="github" revision="pie" />
