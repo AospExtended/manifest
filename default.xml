@@ -226,7 +226,6 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
@@ -472,6 +471,7 @@
   <project path="external/f2fs-tools" name="lineageos/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/ffmpeg" name="lineageos/android_external_ffmpeg" remote="github" revision="cm-14.1" />
   <project path="external/fuse" name="lineageos/android_external_fuse" remote="github" revision="cm-14.1" />
+  <project path="external/icu" name="lineageos/android_external_icu" remote="github" revision="cm-14.1" />
   <project path="external/gson" name="lineageos/android_external_gson" remote="github" revision="cm-14.1" />
   <project path="external/json-c" name="lineageos/android_external_json-c" remote="github" revision="cm-14.1" />
   <project path="external/libncurses" name="lineageos/android_external_libncurses" remote="github" revision="cm-14.1" />
