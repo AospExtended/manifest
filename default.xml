@@ -506,7 +506,7 @@
   <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="cm-14.1"" />
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
