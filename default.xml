@@ -39,6 +39,7 @@
   <project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="platform_art" groups="pdk" remote="ex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ex" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="ex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
@@ -95,7 +96,7 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ex" />
   <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="ex" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="ex" />
-    <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
 
   <!--AOSP-JF -->
   <project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="aosp-jf" />
@@ -104,7 +105,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aosp-jf" />
-  <project path="art" name="platform_art" groups="pdk" remote="aosp-jf" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosp-jf" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="aosp-jf" />
@@ -173,7 +173,6 @@
   <project path="external/caliper" name="platform/external/caliper" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
@@ -507,6 +506,7 @@
   <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="cm-14.1"" />
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="lineageos/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
