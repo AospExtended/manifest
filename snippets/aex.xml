@@ -211,5 +211,7 @@
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang/3.9/prebuilt/linux-x86_64" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang/4.0/prebuilt/linux-x86_64" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang/6.0/prebuilt/linux-x86_64" remote="github" revision="pie" />
-
+  <!-- GCC 9.x toolchain repo's from kdrag0n -->
+  <project name="kdrag0n/aarch64-elf-gcc" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" remote="github" revision="9.x" />
+  <project name="kdrag0n/arm-eabi-gcc" path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-9.1" remote="github" revision="9.x" />
 </manifest>
