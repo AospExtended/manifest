@@ -141,4 +141,5 @@
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libcups" />
 </manifest>
