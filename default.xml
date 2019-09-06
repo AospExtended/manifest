@@ -24,6 +24,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-16.0" />
 
+  <remote  name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="refs/heads/pie-plus" />
+
   <default revision="refs/tags/android-9.0.0_r46"
            remote="aosp"
            sync-j="4" 

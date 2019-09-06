@@ -45,7 +45,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aex" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aex" />
-  <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="aex" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
