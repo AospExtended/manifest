@@ -97,6 +97,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="ex" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="ex" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="system/gatekeeper" name="platform_system_gatekeeper" groups="pdk" remote="ex" />
 
   <!--AOSP-JF -->
   <project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="aosp-jf" />
@@ -435,7 +436,6 @@
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <project path="system/firewalld" name="platform/system/firewalld" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
