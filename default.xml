@@ -9,6 +9,10 @@
            fetch="https://github.com/aex-tmp"
            revision="refs/heads/10.x" />
 
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-17.0" />
+
   <default revision="refs/tags/android-10.0.0_r2"
            remote="aosp"
            sync-j="4"
