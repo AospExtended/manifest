@@ -3,6 +3,7 @@
 
   <!-- AospExtended -->
   <project path="manifest" name="manifest" remote="aex" />
+  <project path="art" name="platform_art" groups="pdk" remote="aex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
   <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
@@ -18,7 +19,12 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
+  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
@@ -29,6 +35,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="aex" />
 
   <!-- LineageOS -->
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-16.0" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
@@ -36,5 +43,15 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="lineage" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" />
 
 </manifest>
