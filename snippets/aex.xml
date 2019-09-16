@@ -19,19 +19,33 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <!--<project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" /> -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
+  <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="aex" /> -->
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" groups="pdk" remote="aex" />
+  <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aex" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="aex" />
 
   <!-- LineageOS -->
@@ -43,15 +57,18 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="lineage" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="lineage" />
 
   <!-- Hals -->
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="aex" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex" revision="10.x-caf" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="aex" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aex" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" revision="10.x-caf" />
 
 </manifest>
