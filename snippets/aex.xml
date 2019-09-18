@@ -20,6 +20,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <!--<project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" /> -->
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="aex" /> -->
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
