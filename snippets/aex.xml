@@ -41,6 +41,7 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
@@ -51,6 +52,7 @@
   <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="aex-lab" clone-depth="1" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="aex" />

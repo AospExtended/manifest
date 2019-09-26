@@ -5,8 +5,19 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <remote  name="aex"
            fetch="https://github.com/aex-tmp"
+           revision="refs/heads/10.x" />
+
+  <remote  name="aex-lab"
+           fetch="https://gitlab.com/AospExtended"
+           revision="refs/heads/10.x" />
+
+  <remote  name="aex-devices"
+           fetch="https://github.com/AospExtended-Devices" 
            revision="refs/heads/10.x" />
 
   <remote  name="lineage"
