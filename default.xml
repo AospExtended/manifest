@@ -9,7 +9,7 @@
            fetch="https://github.com/" />
 
   <remote  name="aex"
-           fetch="https://github.com/aex-tmp"
+           fetch="https://github.com/AospExtended"
            revision="refs/heads/10.x" />
 
   <remote  name="aex-lab"
