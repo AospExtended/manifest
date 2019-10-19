@@ -63,6 +63,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
   <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="aex" />
 
   <!-- LineageOS -->
