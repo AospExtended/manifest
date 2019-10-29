@@ -5,6 +5,7 @@
   <project path="manifest" name="manifest" remote="aex" />
   <project path="art" name="platform_art" groups="pdk" remote="aex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
   <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
     <copyfile src="core/root.mk" dest="Makefile" />
