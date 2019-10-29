@@ -20,7 +20,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy-um" />
   <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="aex" /> -->
@@ -52,6 +51,7 @@
   <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aex" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="aex" revision="9.x" clone-depth="1" />
   <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
@@ -66,6 +66,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="aex" />
 
   <!-- LineageOS -->
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
