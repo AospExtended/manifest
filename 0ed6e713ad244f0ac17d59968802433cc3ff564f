@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed612a6e_1783c43e",
+        "filename": "snippets/aex.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000013
+      },
+      "writtenOn": "2019-11-01T07:34:02Z",
+      "side": 1,
+      "message": "It\u0027s good to move the project path to here, under LineageOS tag, just to keep things organised :)",
+      "revId": "0ed6e713ad244f0ac17d59968802433cc3ff564f",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}
