@@ -45,6 +45,7 @@
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Protips" />
@@ -95,12 +96,17 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -127,6 +133,8 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
