@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a87c6741_8ef526e1",
+        "filename": "snippets/aex.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-11-24T10:48:54Z",
+      "side": 1,
+      "message": "Please move this to proper head",
+      "revId": "90b4d7e6cfabb3416dc96ed1ce8218e3890c688e",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}
