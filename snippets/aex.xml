@@ -22,8 +22,8 @@
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy-um" />
-  <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="aex" /> -->
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
