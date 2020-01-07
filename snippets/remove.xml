@@ -97,6 +97,7 @@
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
