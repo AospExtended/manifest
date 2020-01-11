@@ -811,4 +811,7 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/aex.xml" />
 
+  <!-- GCC 9.x -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.x" name="kdrag0n/aarch64-elf-gcc" remote="gituhub" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-android-9.x" name="kdrag0n/arm-eabi-gcc " remote="gituhub" />
 </manifest>
