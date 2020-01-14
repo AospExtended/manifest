@@ -133,11 +133,11 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" revision="lineage-17.1-caf" />
-  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
 
   <!-- Hals -->
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" />
