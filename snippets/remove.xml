@@ -117,6 +117,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DeskClock" />
