@@ -62,6 +62,7 @@
   <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aex" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="aex-lab" clone-depth="1" />
