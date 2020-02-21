@@ -135,7 +135,7 @@
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/brctl" name="android_external_brctl" remote="los" />
   <project path="external/powertop" name="android_external_powertop" remote="los" />
-  <project path="external/chromium-libpa" name="android_external_chromium-libpa" remote="los" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="los" />
   <project path="external/ebtables" name="android_external_ebtables" groups="pdk" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
