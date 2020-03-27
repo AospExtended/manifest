@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
            revision="refs/heads/10.x" />
