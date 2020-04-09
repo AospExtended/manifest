@@ -145,6 +145,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-17.1"/>
+
 
   <!-- Hals -->
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" />
