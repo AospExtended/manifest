@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://github.com/AospExtended/manifest/raw/7.1.1/aex_logo.png" width="320px" height="320px" > 
+<img src="https://raw.githubusercontent.com/AospExtended/Documentation_and_thread-template/10.x/Banner.png" > 
 </p>
 
-AospExtended Q
+AospExtended Ten
 ===========
 AospExtended is just an extension to AOSP, through which we 
 are trying to provide a stock AOSP experience along with some important 
