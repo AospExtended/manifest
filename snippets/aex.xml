@@ -162,4 +162,7 @@
   <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="aex" />
   <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="aex" />
 
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="aex-labs" />
+
 </manifest>
