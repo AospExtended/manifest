@@ -29,6 +29,7 @@
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" groups="pdk" remote="aex" />
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
