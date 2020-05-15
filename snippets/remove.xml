@@ -100,6 +100,7 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/sqlite" />
