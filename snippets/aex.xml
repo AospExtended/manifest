@@ -71,6 +71,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aex" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
