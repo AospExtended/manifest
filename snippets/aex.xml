@@ -23,7 +23,7 @@
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="external/libcups" name="android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="los" />
-  <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="los" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" remote="los" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="los" />
   <project path="external/chromium-libpac" name="platform_external_chromium-libpac" groups="pdk" remote="aex" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="los" />
