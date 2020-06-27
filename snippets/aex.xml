@@ -1,0 +1,184 @@
+<<<<<<< HEAD   (458a84 Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001))
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AospExtended -->
+  <project path="manifest" name="manifest" remote="aex" />
+  <project path="art" name="platform_art" groups="pdk" remote="aex" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
+  <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aex" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy-um" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aex" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" groups="pdk" remote="aex" />
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
+  <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aex" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
+  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aex" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk,tradefed" remote="aex" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
+  <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aex" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aex" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="aex" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="platform_testing" name="platform_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aex" />
+  <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
+  <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
+  <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aex" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
+  <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="aex-lab" clone-depth="1" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
+
+  <!-- LineageOS -->
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
+  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />    
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="lineage" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
+  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
+  <!--<project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-apq8084" />-->
+  <!--<project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-apq8084" />-->
+  <!--<project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-apq8084" />-->
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8916" />
+  <!--<project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8952" />-->
+  <!--<project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8952" />-->
+  <!--<project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8952" />-->
+  <!--<project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8960" />-->
+  <!--<project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8960" />-->
+  <!--<project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8960" />-->
+  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" revision="lineage-17.1-caf" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" />
+  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="aex" />
+  <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="aex" />
+
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="aex-lab" />
+
+</manifest>
+>>>>>>> CHANGE (4980ba manifest: Track QTI BT repos from LineageOS)
