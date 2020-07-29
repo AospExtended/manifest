@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a3b7ab0b_cec3e27e",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-29T06:09:30Z",
+      "side": 0,
+      "message": "We can kick this as well I assume?",
+      "range": {
+        "startLine": 17,
+        "startChar": 14,
+        "endLine": 17,
+        "endChar": 26
+      },
+      "revId": "fb25e49ae8765698f0eaf9e1e6984f4ae029f588",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e6e43272_c1a29f0b",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-29T06:09:30Z",
+      "side": 0,
+      "message": "Please remove such indentation from all commands as well",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 2
+      },
+      "revId": "fb25e49ae8765698f0eaf9e1e6984f4ae029f588",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}
