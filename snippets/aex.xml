@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AospExtended -->
+  <project path="manifest" name="manifest" remote="aospextended" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="aospextended" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aospextended" />
+  <project path="build/make" name="platform_build" groups="pdk" remote="aospextended" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aospextended" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aospextended" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospextended" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospextended" revision="ten-legacy-um" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aospextended" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aospextended" />
+  <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aospextended" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aospextended" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aospextended" />
+  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aospextended" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aospextended" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aospextended" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aospextended" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aospextended" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aospextended" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aospextended" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="aospextended" />
+  <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aospextended" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aospextended" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aospextended" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aospextended" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospextended" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospextended" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aospextended" />
+  
+</manifest>
