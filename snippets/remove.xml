@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="device/generic/goldfish" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />  
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/libhevc" />  
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -25,7 +28,13 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" /> 
+  <remove-project name="platform/prebuilts/r8" />   
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/bpf" />  
   
 </manifest>
