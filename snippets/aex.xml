@@ -33,6 +33,7 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aospextended" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aospextended" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aospextended" />
+  <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aospextended" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aospextended" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aospextended" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aospextended" />
