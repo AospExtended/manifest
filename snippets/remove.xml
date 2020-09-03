@@ -2,18 +2,21 @@
 <manifest>
 
   <remove-project name="device/generic/goldfish" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />  
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/libhevc" />  
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -26,15 +29,32 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" /> 
-  <remove-project name="platform/prebuilts/r8" />   
+  <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/bpf" />  
+  <remove-project name="platform/system/vold" />
   
 </manifest>
