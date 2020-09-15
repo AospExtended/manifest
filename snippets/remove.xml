@@ -43,6 +43,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
