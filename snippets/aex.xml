@@ -42,6 +42,7 @@
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="aex" />
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
+  <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="aex" />
