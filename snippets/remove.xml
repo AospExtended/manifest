@@ -37,7 +37,9 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -45,16 +47,35 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/update_engine" />
-
+  <remove-project name="platform/system/vold" />
+  
 </manifest>
