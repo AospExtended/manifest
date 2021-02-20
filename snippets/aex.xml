@@ -32,6 +32,7 @@
   <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/libcxx" name="platform_external_libcxx" groups="pdk" remote="aex" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
+  <project path="external/perfetto" name="platform_external_perfetto" groups="pdk" remote="aex" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
