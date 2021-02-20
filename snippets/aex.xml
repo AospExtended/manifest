@@ -130,6 +130,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
+  <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="aex" />
