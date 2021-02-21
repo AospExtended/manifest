@@ -48,9 +48,9 @@ Finally to build:
 -----------------
 
 ```bash
-  . build/envsetup.sh
+  source build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  make aex -j$(nproc --all) | tee log.txt
+  m aex -j$(nproc --all) | tee log.txt
 ```
 ## Report build issues
 - You can reach us via [Telegram](https://t.me/aospextendedgroup)
