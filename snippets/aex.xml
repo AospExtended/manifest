@@ -104,6 +104,7 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" revision="refs/tags/android-9.0.0_r52" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="aex" />
