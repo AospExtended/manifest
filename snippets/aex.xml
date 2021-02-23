@@ -42,6 +42,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" groups="pdk" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aex" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
