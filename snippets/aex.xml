@@ -29,6 +29,7 @@
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
   <project path="external/connectivity" name="platform_external_connectivity" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/exfat" name="platform_external_exfat" remote="aex" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="aex-lab" />
   <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/libcxx" name="platform_external_libcxx" groups="pdk" remote="aex" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
@@ -107,6 +108,7 @@
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" revision="refs/tags/android-9.0.0_r52" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="aex" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
