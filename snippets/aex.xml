@@ -47,6 +47,7 @@
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="aex" />
+  <project path="packages/apps/Updates" name="platform_packages_apps_Updates" remote="aex" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="aex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="aex" />
