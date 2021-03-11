@@ -43,60 +43,6 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" groups="pdk" remote="lineage" />
-  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aex" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />-->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />-->
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-  </project>
-  <!--<project path="hardware/qcom-caf/apq8084/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-apq8084" />-->
-  <!--<project path="hardware/qcom-caf/apq8084/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-apq8084" />-->
-  <!--<project path="hardware/qcom-caf/apq8084/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-apq8084" />-->
-  <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf" />
-  <project path="hardware/qcom-caf/msm8916/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8916" />
-  <!--<project path="hardware/qcom-caf/msm8952/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8952" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8952" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8952" />-->
-  <!--<project path="hardware/qcom-caf/msm8960/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8960" />-->
-  <!--<project path="hardware/qcom-caf/msm8960/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8960" />-->
-  <!--<project path="hardware/qcom-caf/msm8960/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8960" />-->
-  <!--<project path="hardware/qcom-caf/msm8974/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8974" />-->
-  <!--<project path="hardware/qcom-caf/msm8974/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8974" />-->
-  <!--<project path="hardware/qcom-caf/msm8974/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8974" />-->
-  <!--<project path="hardware/qcom-caf/msm8994/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8994" />-->
-  <!--<project path="hardware/qcom-caf/msm8994/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8994" />-->
-  <!--<project path="hardware/qcom-caf/msm8994/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8994" />-->
-  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="11.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="11.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="11.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" revision="11.x-caf" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote ="aex" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
@@ -105,7 +51,6 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
-  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" revision="refs/tags/android-9.0.0_r52" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="aex" />
@@ -126,17 +71,12 @@
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" clone-depth="1" remote="aex" />
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
-  <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />  
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aex" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
