@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="pdk" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="pdk" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" groups="pdk" remote="lineage" />
+  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
 
   <!-- HALS -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" groups="pdk" remote="lineage" />
