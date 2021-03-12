@@ -24,16 +24,6 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="11.x-legacy-um" />
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
-  <project path="external/connectivity" name="platform_external_connectivity" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="external/exfat" name="platform_external_exfat" remote="aex" />
-  <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="external/libcxx" name="platform_external_libcxx" groups="pdk" remote="aex" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
-  <project path="external/perfetto" name="platform_external_perfetto" groups="pdk" remote="aex" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
