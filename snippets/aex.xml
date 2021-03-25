@@ -70,4 +70,6 @@
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
 
+  <!-- device tracking -->
+  <project path="official_devices" name="official_devices" remote="aex" revision="main" />
 </manifest>
