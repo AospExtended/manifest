@@ -70,6 +70,9 @@
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
 
+  <!-- AOSP -->
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
+
   <!-- device tracking -->
   <project path="official_devices" name="official_devices" remote="aex" revision="main" />
 </manifest>
