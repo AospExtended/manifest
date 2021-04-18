@@ -62,6 +62,7 @@
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aex" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
+  <project path="system/media" name="platform_system_media" groups="pdk" remote="aex" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />  
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
