@@ -75,6 +75,9 @@
   <!-- AOSP -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
 
+  <!-- POSP -->
+  <project path="packages/apps/PotatoPlugins" name="PotatoProject/packages_apps_Plugins" remote="github" revision="dumaloo-release" />
+
   <!-- device tracking -->
   <project path="official_devices" name="official_devices" remote="aex" revision="main" />
 </manifest>
