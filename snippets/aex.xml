@@ -75,6 +75,9 @@
   <!-- AOSP -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
 
+  <!-- GApps -->
+  <project path="vendor/gapps" name="platform_vendor_gapps" clone-depth="1" remote="aex-lab" />
+
   <!-- POSP -->
   <project path="packages/apps/PotatoPlugins" name="PotatoProject/packages_apps_Plugins" remote="github" revision="dumaloo-release" />
 
