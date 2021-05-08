@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="aex"
+           fetch="https://github.com/AospExtended"
+           revision="refs/heads/11.x" />
+
+  <remote  name="aex-lab"
+           fetch="https://gitlab.com/AospExtended"
+           revision="refs/heads/11.x" />
+
+  <remote  name="aex-devices"
+           fetch="https://github.com/AospExtended-Devices" 
+           revision="refs/heads/11.x" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-18.1" />
+
   <!-- AospExtended -->
   <project path="manifest" name="manifest" remote="aex" />
   <project path="art" name="platform_art" groups="pdk" remote="aex" />
