@@ -82,6 +82,7 @@
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" clone-depth="1" remote="aex" />
   <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" clone-depth="1" remote="aex" />
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aex" />
