@@ -48,6 +48,8 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="11.x-legacy-um" />
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="aex-lab" />
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aex" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
