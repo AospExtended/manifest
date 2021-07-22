@@ -52,6 +52,7 @@
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aex" />
   <project path="hardware/aosp/hal" name="platform_hardware_aosp" groups="pdk" remote="aex" />  
