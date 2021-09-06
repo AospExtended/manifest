@@ -46,6 +46,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="11.x-legacy-um" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="aex" />
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="aex-lab" />
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aex" />
