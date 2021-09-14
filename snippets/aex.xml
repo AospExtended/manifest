@@ -76,6 +76,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
+  <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="aex" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" groups="pdk-fs" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs" remote="aex" />
@@ -102,6 +103,7 @@
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
+
 
   <!-- AOSP -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
