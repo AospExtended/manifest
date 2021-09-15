@@ -76,6 +76,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="aex" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="aex" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="aex" groups="pdk-fs" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs" remote="aex" />
