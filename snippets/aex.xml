@@ -103,7 +103,7 @@
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
-
+  <project path="libcore" name="platform_libcore" remote="aex" />
 
   <!-- AOSP -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
