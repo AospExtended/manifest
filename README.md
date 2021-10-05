@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/AospExtended/Documentation_and_thread-template/10.x/Banner.png" > 
 </p>
 
-AospExtended Eleven
+AospExtended Twelve
 ===========
 AospExtended is just an extension to AOSP, through which we 
 are trying to provide a stock AOSP experience along with some important 
@@ -30,12 +30,12 @@ To initialize your local repository using the AospExtended trees, use a
 command like this:
 
 ```bash
-  repo init -u git://github.com/AospExtended/manifest.git -b 11.x
+  repo init -u git://github.com/AospExtended/manifest.git -b 12.x
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-  repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 11.x
+  repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 12.x
 ```
   
 Then to sync up:
