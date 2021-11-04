@@ -51,12 +51,14 @@
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="aex" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aex" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aex" />
+  <project path="external/robolectric-shadows" name="platform_external_robolectric-shadows" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aex" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aex" />
-  <project path="hardware/aosp/hal" name="platform_hardware_aosp" groups="pdk" remote="aex" />  
+  <project path="hardware/aosp/hal" name="platform_hardware_aosp" groups="pdk" remote="aex" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" groups="pdk" remote="aex" />  
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aex" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aex" />
@@ -71,6 +73,7 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_Plugins" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
