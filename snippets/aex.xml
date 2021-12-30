@@ -89,6 +89,7 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
   <project path="system/security" name="platform_system_security" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
