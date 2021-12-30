@@ -82,4 +82,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/e2fsprogs" />  
 </manifest>

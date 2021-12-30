@@ -104,4 +104,6 @@
   <!-- AOSP -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/exfatprogs" name="platform/external/exfatprogs"  groups="pdk" revision="refs/heads/master" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aex" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aex" />
 </manifest>
