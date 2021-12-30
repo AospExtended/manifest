@@ -8,6 +8,10 @@
   <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" groups="pdk" remote="aex" />
   <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" revision="lineage-19.0" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" revision="lineage-19.0" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" revision="lineage-19.0" />
+
 
   <!-- HALS -->
   <project path="hardware/qcom-caf/apq8084/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="12.x-caf-apq8084" />
@@ -107,9 +111,13 @@
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="aex" />
   <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="aex" />
-  
+
+  <!-- Packages -->
+  <project path="packages/modules/adb" name="platform_packages_modules_adb" groups="pdk" remote="aex" />
+
   <!-- System -->
   <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" groups="pdk" remote="aex" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" revision="lineage-19.0" />
 
 
   <!-- Toolchain -->
