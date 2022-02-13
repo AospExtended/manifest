@@ -37,7 +37,7 @@ To initialize a shallow clone, which will save even more space & time, use a com
 ```bash
 repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 12.x
 ```
-  
+
 Then to sync up:
 ----------------
 
@@ -53,22 +53,23 @@ lunch aosp_device_codename-userdebug
 m aex -j$(nproc --all) | tee log.txt
 ```
 ## Report build issues
-- You can reach us via [Telegram](https://t.me/aospextendedgroup)
+- For reporting bugs faced on officially supported devices, click [here](https://github.com/AospExtended/issue_tracker#issue-tracker-for-aospextended)
 
 ## Maintain Officially
-- If you're building **AospExtended** for an unofficial device and would like to make it official, Check out the link below for more information about the requirements for both you and your device.  
+- If you're building **AospExtended** for an unofficial device and would like to make it official, Check out the link below for more information about the requirements for both you and your device.
 - [Click here for more info](https://github.com/AospExtended/Documentation_and_thread-template) (**Read full README**)
 
 ### Important Links:
 
 - [Website](http://www.aospextended.com/)
+- [Gallery](https://aospextended.com/gallery)
 - [Download Center](https://downloads.aospextended.com/)
 - [Blog](https://blog.aospextended.com/)
 - [Gerrit Code Review](http://gerrit.aospextended.com/)
-- [Telegram Channel](https://telegram.me/aospextended/)
+- [Telegram Channel](https://t.me/aospextended/)
+- [Telegram Discussion Group](https://t.me/aospextendedgroup/)
 - [Documentation & Thread Template](https://github.com/AospExtended/Documentation_and_thread-template/) 
 - [Help us translate AospExtended ROM and bring it to the world!](http://translate.aospextended.com/)
-- [Theme Resources](https://github.com/AospExtended/AEX-Scripts/) 
 - [Extended Devices](https://github.com/AospExtended-devices/)
-- [Gallery](https://aospextended.com/gallery)
-- [Facebook page!](https://www.facebook.com/aospextended/)
+- [Twitter](https://twitter.com/aospextendedrom/)
+- [Facebook](https://www.facebook.com/aospextended/)
