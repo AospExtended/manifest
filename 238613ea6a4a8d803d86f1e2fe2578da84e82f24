@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dfdf900_87bfd960",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-02-14T08:38:23Z",
+      "side": 1,
+      "message": "http://gerrit.aospextended.com/c/AospExtended/manifest/+/3863",
+      "revId": "238613ea6a4a8d803d86f1e2fe2578da84e82f24",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    }
+  ]
+}
