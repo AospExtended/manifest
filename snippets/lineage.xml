@@ -8,16 +8,16 @@
   <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" groups="pdk" remote="aex" />
   <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" revision="lineage-19.0" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" revision="lineage-19.0" />
-  <project path="external/mksh" name="android_external_mksh" remote="lineage" revision="lineage-19.0" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
 
 
   <!-- HALS -->
-  <project path="hardware/qcom-caf/apq8084/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="12.x-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="12.x-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="12.x-caf-apq8084" />
-  <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="aex" revision="12.x-caf" />
+  <project path="hardware/qcom-caf/apq8084/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex" revision="12.1.x-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex" revision="12.1.x-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex" revision="12.1.x-caf-apq8084" />
+  <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="aex" revision="12.1.x-caf" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aex" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -48,52 +48,52 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf" />
-  <project path="hardware/qcom-caf/msm8916/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8952/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8952" />
-  <project path="hardware/qcom-caf/msm8952/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8952" />
-  <project path="hardware/qcom-caf/msm8952/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8952" />
-  <project path="hardware/qcom-caf/msm8960/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8974/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8994/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8994/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8994/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-sm8350" />
+  <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.1.x-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.1.x-caf-sm8350" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="aex" />
   <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" revision="12.x-caf" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" revision="12.1.x-caf" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="aex" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="aex" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="aex" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="aex" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="aex" revision="12.x-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="aex" revision="12.x-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="aex" revision="12.x-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="aex" revision="12.x-sn100x" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="aex" revision="12.1.x-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="aex" revision="12.1.x-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="aex" revision="12.1.x-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="aex" revision="12.1.x-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="aex" />
@@ -114,7 +114,7 @@
 
   <!-- System -->
   <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" groups="pdk" remote="aex" />
-  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" revision="lineage-19.0" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
 
 
   <!-- Toolchain -->

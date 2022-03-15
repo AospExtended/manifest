@@ -12,19 +12,19 @@
 
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
-           revision="refs/heads/12.x" />
+           revision="refs/heads/12.1.x" />
 
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
-           revision="refs/heads/12.x" />
+           revision="refs/heads/12.1.x" />
 
   <remote  name="aex-devices"
            fetch="https://github.com/AospExtended-Devices" 
-           revision="refs/heads/12.x" />
+           revision="refs/heads/12.1.x" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-18.1" />
+           revision="refs/heads/lineage-19.1" />
 
   <!-- AospExtended -->
   <project path="manifest" name="manifest" remote="aex" />
@@ -47,7 +47,7 @@
   <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aex" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="12.x-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="12.1.x-legacy-um" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="aex" />
   <project path="external/themelib" name="platform_external_themelib" remote="aex" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aex" />
@@ -102,7 +102,7 @@
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
 
   <!-- GApps -->
-  <project path="vendor/google" name="platform_vendor_gapps" clone-depth="1" remote="aex-lab" />
+  <project path="vendor/google" name="platform_vendor_google" clone-depth="1" remote="aex-lab" />
 
   <!-- AOSP -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
