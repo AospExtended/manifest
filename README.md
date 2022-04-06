@@ -30,12 +30,12 @@ To initialize your local repository using the AospExtended trees, use a
 command like this:
 
 ```bash
-repo init -u git://github.com/AospExtended/manifest.git -b 12.x
+repo init -u https://github.com/AospExtended/manifest.git -b 12.x
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 12.x
+repo init --depth=1 -u https://github.com/AospExtended/manifest.git -b 12.x
 ```
 
 Then to sync up:
