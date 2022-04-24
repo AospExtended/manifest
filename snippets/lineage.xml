@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="platform_external_ant-wireless_ant_client" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" groups="pdk" remote="aex" />
-  <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" groups="pdk" remote="aex" />
-  <project path="external/json-c" name="platform_external_json-c" groups="qcom,pdk-qcom" remote="aex" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="pdk" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="pdk" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="pdk" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="pdk" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aex" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
