@@ -84,6 +84,7 @@
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="aex" />
   <project path="hardware/qcom-caf/vr" name="platform_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="aex" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex" revision="12.1.x-caf" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="aex" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="aex" />
